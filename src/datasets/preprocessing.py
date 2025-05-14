@@ -11,10 +11,10 @@ def create_semisupervised_setting_number(labels, normal_classes, outlier_classes
     n_normal = len(idx_normal)
 
     # Get number of samples
-    n_known_normal = int(x[0])
-    n_unlabeled_normal = int(x[1])
-    n_unlabeled_outlier = int(x[2])
-    n_known_outlier = int(x[3])
+    n_known_normal = 0
+    n_unlabeled_normal = n_normal - n_known_normal
+    n_unlabeled_outlier = n_pollution
+    n_known_outlier = n_known_outlier
 
     # Sample indices
     perm_normal = np.random.permutation(n_normal)
