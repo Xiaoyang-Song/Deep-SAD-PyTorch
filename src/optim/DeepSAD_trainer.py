@@ -143,6 +143,15 @@ class DeepSADTrainer(BaseTrainer):
         scores = np.array(scores)
         self.test_auc = roc_auc_score(labels, scores)
 
+        # TPR95 quantile
+        ind_scores = np.array(scores[labels == 0])
+        ood_scores = np.array(scores[labels == 1])
+
+        tpr95threshold = np.percentile(ind_scores, 95)
+        tpr95 = np.sum(ood_scores >= tpr95threshold) / len(ood_scores)
+        print(f"InD Test Size: {len(ind_scores)}, OoD Test Size: {len(ood_scores)}, TPR95: {tpr95:.4f}")
+        logger.info('Testing TPR95: {:.4f}'.format(tpr95))
+
         # Log results
         logger.info('Test Loss: {:.6f}'.format(epoch_loss / n_batches))
         logger.info('Test AUC: {:.2f}%'.format(100. * self.test_auc))
