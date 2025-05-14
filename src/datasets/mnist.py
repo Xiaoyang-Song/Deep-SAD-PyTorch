@@ -19,8 +19,13 @@ class MNIST_Dataset(TorchvisionDataset):
         self.n_classes = 2  # 0: normal, 1: outlier
         self.normal_classes = tuple([normal_class])
         self.outlier_classes = list(range(0, 10))
-        self.outlier_classes.remove(normal_class)
-        self.outlier_classes = tuple(self.outlier_classes)
+        # self.outlier_classes.remove(normal_class)
+        # self.outlier_classes = tuple(self.outlier_classes)
+        if type(normal_class) == int:
+            self.outlier_classes.remove(normal_class)
+        else:
+            self.outlier_classes = list(set(self.outlier_classes) - set(normal_class))
+        print(f"Outlier classes: {self.outlier_classes}")
 
         if n_known_outlier_classes == 0:
             self.known_outlier_classes = ()
@@ -34,8 +39,7 @@ class MNIST_Dataset(TorchvisionDataset):
         target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
 
         # Get train set
-        train_set = MyMNIST(root=self.root, train=True, transform=transform, target_transform=target_transform,
-                            download=True)
+        train_set = MyMNIST(root=self.root, train=True, transform=transform, target_transform=target_transform, download=True)
 
         # Create semi-supervised setting
         idx, _, semi_targets = create_semisupervised_setting(train_set.targets.cpu().data.numpy(), self.normal_classes,
