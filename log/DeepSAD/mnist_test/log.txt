@@ -1801,3 +1801,58 @@
 2025-05-14 15:15:06,510 - root - INFO - Test AUC: 95.36%
 2025-05-14 15:15:06,510 - root - INFO - Test Time: 0.891s
 2025-05-14 15:15:06,510 - root - INFO - Finished testing.
+2025-05-14 20:55:02,327 - root - INFO - Log file is ../log/DeepSAD/mnist_test/log.txt
+2025-05-14 20:55:02,328 - root - INFO - Data path is ../data
+2025-05-14 20:55:02,328 - root - INFO - Export path is ../log/DeepSAD/mnist_test
+2025-05-14 20:55:02,329 - root - INFO - Dataset: mnist
+2025-05-14 20:55:02,329 - root - INFO - Normal class: [0, 1, 2, 3, 4]
+2025-05-14 20:55:02,330 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-14 20:55:02,330 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-14 20:55:02,330 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-14 20:55:02,331 - root - INFO - Number of known anomaly classes: 2
+2025-05-14 20:55:02,331 - root - INFO - Network: mnist_LeNet
+2025-05-14 20:55:02,332 - root - INFO - Eta-parameter: 1.00
+2025-05-14 20:55:02,339 - root - INFO - Set seed to 999.
+2025-05-14 20:55:02,458 - root - INFO - Computation device: cuda
+2025-05-14 20:55:02,459 - root - INFO - Number of threads: 0
+2025-05-14 20:55:02,460 - root - INFO - Number of dataloader workers: 0
+2025-05-14 20:55:02,637 - root - INFO - Known anomaly classes: [5, 6, 7, 8, 9]
+2025-05-14 20:55:02,644 - root - INFO - Pretraining: True
+2025-05-14 20:55:02,644 - root - INFO - Pretraining optimizer: adam
+2025-05-14 20:55:02,645 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-14 20:55:02,645 - root - INFO - Pretraining epochs: 150
+2025-05-14 20:55:02,645 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-14 20:55:02,645 - root - INFO - Pretraining batch size: 512
+2025-05-14 20:55:02,646 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-14 20:55:02,834 - root - INFO - Starting pretraining...
+2025-05-14 20:55:02,834 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-14 21:06:13,390 - root - INFO - Log file is ../log/DeepSAD/mnist_test/log.txt
+2025-05-14 21:06:13,390 - root - INFO - Data path is ../data
+2025-05-14 21:06:13,390 - root - INFO - Export path is ../log/DeepSAD/mnist_test
+2025-05-14 21:06:13,390 - root - INFO - Dataset: mnist
+2025-05-14 21:06:13,390 - root - INFO - Normal class: [0, 1, 2, 3, 4]
+2025-05-14 21:06:13,390 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-14 21:06:13,390 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-14 21:06:13,390 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-14 21:06:13,390 - root - INFO - Number of known anomaly classes: 2
+2025-05-14 21:06:13,390 - root - INFO - Network: mnist_LeNet
+2025-05-14 21:06:13,390 - root - INFO - Eta-parameter: 1.00
+2025-05-14 21:06:13,402 - root - INFO - Set seed to 999.
+2025-05-14 21:06:13,430 - root - INFO - Computation device: cuda
+2025-05-14 21:06:13,430 - root - INFO - Number of threads: 0
+2025-05-14 21:06:13,445 - root - INFO - Number of dataloader workers: 0
+2025-05-14 21:06:23,824 - root - INFO - Log file is ../log/DeepSAD/mnist_test/log.txt
+2025-05-14 21:06:23,824 - root - INFO - Data path is ../data
+2025-05-14 21:06:23,824 - root - INFO - Export path is ../log/DeepSAD/mnist_test
+2025-05-14 21:06:23,824 - root - INFO - Dataset: mnist
+2025-05-14 21:06:23,824 - root - INFO - Normal class: [0, 1, 2, 3, 4]
+2025-05-14 21:06:23,824 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-14 21:06:23,824 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-14 21:06:23,824 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-14 21:06:23,824 - root - INFO - Number of known anomaly classes: 2
+2025-05-14 21:06:23,824 - root - INFO - Network: mnist_LeNet
+2025-05-14 21:06:23,824 - root - INFO - Eta-parameter: 1.00
+2025-05-14 21:06:23,839 - root - INFO - Set seed to 999.
+2025-05-14 21:06:23,879 - root - INFO - Computation device: cuda
+2025-05-14 21:06:23,879 - root - INFO - Number of threads: 0
+2025-05-14 21:06:23,880 - root - INFO - Number of dataloader workers: 0

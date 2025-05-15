@@ -9,7 +9,7 @@ import torchvision.transforms as transforms
 import random
 
 
-class MNIST_Dataset(TorchvisionDataset):
+class MNIST_Dataset_Customized(TorchvisionDataset):
 
     def __init__(self, root: str, normal_class: int = 0, known_outlier_class: int = 1, n_known_outlier_classes: int = 0,
                  ratio_known_normal: float = 0.0, ratio_known_outlier: float = 0.0, ratio_pollution: float = 0.0):
@@ -43,6 +43,62 @@ class MNIST_Dataset(TorchvisionDataset):
         # Get train set
         train_set = MyMNIST(root=self.root, train=True, transform=transform, target_transform=target_transform, download=True)
 
+        train_set.data = train_set.data[train_set.targets == 0]
+        train_set.targets = train_set.targets[train_set.targets == 0]
+        print(len(train_set))
+
+        n_known_normal = int(len(train_set))
+        n_known_outlier = 100
+        n_pollution = 0 # assume no pollution
+        idx, _, semi_targets = create_semisupervised_setting_number(train_set.targets.cpu().data.numpy(), self.normal_classes,
+                                                             self.outlier_classes, self.known_outlier_classes,
+                                                             n_known_normal, n_known_outlier, n_pollution)
+        train_set.semi_targets[idx] = torch.tensor(semi_targets)  # set respective semi-supervised labels
+
+        # Subset train_set to semi-supervised setup
+        self.train_set = Subset(train_set, idx)
+        print(len(self.train_set))
+
+        # Get test set
+        self.test_set = MyMNIST(root=self.root, train=False, transform=transform, target_transform=target_transform, download=True)
+
+
+
+class MNIST_Dataset(TorchvisionDataset):
+
+    def __init__(self, root: str, normal_class: int = 0, known_outlier_class: int = 1, n_known_outlier_classes: int = 0,
+                 ratio_known_normal: float = 0.0, ratio_known_outlier: float = 0.0, ratio_pollution: float = 0.0):
+        super().__init__(root)
+
+        # Define normal and outlier classes
+        self.n_classes = 2  # 0: normal, 1: outlier
+        self.normal_classes = tuple([normal_class])
+        self.outlier_classes = list(range(0, 10))
+        # self.outlier_classes.remove(normal_class)
+        # self.outlier_classes = tuple(self.outlier_classes)
+        if type(normal_class) == int:
+            self.outlier_classes.remove(normal_class)
+        else:
+            self.outlier_classes = list(set(self.outlier_classes) - set(normal_class))
+        print(f"Outlier classes: {self.outlier_classes}")
+
+        if n_known_outlier_classes == 0:
+            self.known_outlier_classes = ()
+        elif n_known_outlier_classes == 1:
+            self.known_outlier_classes = tuple([known_outlier_class])
+        else:
+            # self.known_outlier_classes = tuple(random.sample(self.outlier_classes, n_known_outlier_classes))
+            self.known_outlier_classes = self.outlier_classes
+            
+
+        # MNIST preprocessing: feature scaling to [0, 1]
+        transform = transforms.ToTensor()
+        target_transform = transforms.Lambda(lambda x: int(x in self.outlier_classes))
+
+        # Get train set
+        train_set = MyMNIST(root=self.root, train=True, transform=transform, target_transform=target_transform, download=True)
+        print(len(train_set))
+
         # Create semi-supervised setting
         # idx, _, semi_targets = create_semisupervised_setting(train_set.targets.cpu().data.numpy(), self.normal_classes,
         #                                                      self.outlier_classes, self.known_outlier_classes,
@@ -53,6 +109,7 @@ class MNIST_Dataset(TorchvisionDataset):
         idx, _, semi_targets = create_semisupervised_setting_number(train_set.targets.cpu().data.numpy(), self.normal_classes,
                                                              self.outlier_classes, self.known_outlier_classes,
                                                              n_known_normal, n_known_outlier, n_pollution)
+        print(len(idx), len(semi_targets))
         train_set.semi_targets[idx] = torch.tensor(semi_targets)  # set respective semi-supervised labels
 
         # Subset train_set to semi-supervised setup

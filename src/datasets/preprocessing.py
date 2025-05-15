@@ -1,5 +1,6 @@
 import torch
 import numpy as np
+from collections import Counter
 
 
 def create_semisupervised_setting_number(labels, normal_classes, outlier_classes, known_outlier_classes,
@@ -13,7 +14,7 @@ def create_semisupervised_setting_number(labels, normal_classes, outlier_classes
     # Get number of samples
     n_known_normal = 0
     n_unlabeled_normal = n_normal - n_known_normal
-    n_unlabeled_outlier = n_pollution
+    n_unlabeled_outlier = n_pollution # usually 0 in the proposed setting
     n_known_outlier = n_known_outlier
 
     # Sample indices
@@ -43,6 +44,8 @@ def create_semisupervised_setting_number(labels, normal_classes, outlier_classes
     list_labels = labels_known_normal + labels_unlabeled_normal + labels_unlabeled_outlier + labels_known_outlier
     list_semi_labels = (semi_labels_known_normal + semi_labels_unlabeled_normal + semi_labels_unlabeled_outlier
                         + semi_labels_known_outlier)
+    
+    print(Counter(list_labels))
 
     return list_idx, list_labels, list_semi_labels
 
