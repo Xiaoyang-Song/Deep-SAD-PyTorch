@@ -104,7 +104,7 @@ class MNIST_Dataset(TorchvisionDataset):
         #                                                      self.outlier_classes, self.known_outlier_classes,
         #                                                      ratio_known_normal, ratio_known_outlier, ratio_pollution)
         n_known_normal = int(len(train_set))
-        n_known_outlier = 100
+        n_known_outlier = 10000
         n_pollution = 0 # assume no pollution
         idx, _, semi_targets = create_semisupervised_setting_number(train_set.targets.cpu().data.numpy(), self.normal_classes,
                                                              self.outlier_classes, self.known_outlier_classes,
