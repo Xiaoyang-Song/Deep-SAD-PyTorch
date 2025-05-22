@@ -1,4 +1,4 @@
-from .mnist import MNIST_Dataset
+from .mnist import MNIST_Dataset, MNIST_Dataset_Customized
 from .fmnist import FashionMNIST_Dataset
 from .cifar10 import CIFAR10_Dataset
 from .odds import ODDSADDataset
@@ -6,6 +6,7 @@ from .odds import ODDSADDataset
 
 def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_known_outlier_classes: int = 0,
                  ratio_known_normal: float = 0.0, ratio_known_outlier: float = 0.0, ratio_pollution: float = 0.0,
+                 n_known_normal=None, n_known_outlier=None, n_pollution=None, sampler="original",
                  random_state=None):
     """Loads the dataset."""
 
@@ -16,14 +17,25 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
     dataset = None
 
     if dataset_name == 'mnist':
-        dataset = MNIST_Dataset(root=data_path,
-                                normal_class=normal_class,
-                                known_outlier_class=known_outlier_class,
-                                n_known_outlier_classes=n_known_outlier_classes,
-                                ratio_known_normal=ratio_known_normal,
-                                ratio_known_outlier=ratio_known_outlier,
-                                ratio_pollution=ratio_pollution)
+        # dataset = MNIST_Dataset(root=data_path,
+        #                         normal_class=normal_class,
+        #                         known_outlier_class=known_outlier_class,
+        #                         n_known_outlier_classes=n_known_outlier_classes,
+        #                         ratio_known_normal=ratio_known_normal,
+        #                         ratio_known_outlier=ratio_known_outlier,
+        #                         ratio_pollution=ratio_pollution)
 
+        dataset = MNIST_Dataset_Customized(root=data_path,
+                                           normal_class=normal_class,
+                                           known_outlier_class=known_outlier_class,
+                                           n_known_outlier_classes=n_known_outlier_classes,
+                                           ratio_known_normal=ratio_known_normal,
+                                           ratio_known_outlier=ratio_known_outlier,
+                                           ratio_pollution=ratio_pollution,
+                                           n_known_normal=n_known_normal,
+                                           n_known_outlier=n_known_outlier,
+                                           n_pollution=n_pollution,
+                                           sampler=sampler)
     if dataset_name == 'fmnist':
         dataset = FashionMNIST_Dataset(root=data_path,
                                        normal_class=normal_class,

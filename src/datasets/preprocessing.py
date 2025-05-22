@@ -3,6 +3,15 @@ import numpy as np
 from collections import Counter
 
 
+def get_target_label_idx(labels, targets):
+    """
+    Get the indices of labels that are included in targets.
+    :param labels: array of labels
+    :param targets: list/tuple of target labels
+    :return: list with indices of target labels
+    """
+    return np.argwhere(np.isin(labels, targets)).flatten().tolist()
+
 def create_semisupervised_setting_number(labels, normal_classes, outlier_classes, known_outlier_classes,
                                   n_known_normal, n_known_outlier, n_pollution):
     idx_normal = np.argwhere(np.isin(labels, normal_classes)).flatten()
@@ -45,6 +54,7 @@ def create_semisupervised_setting_number(labels, normal_classes, outlier_classes
     list_semi_labels = (semi_labels_known_normal + semi_labels_unlabeled_normal + semi_labels_unlabeled_outlier
                         + semi_labels_known_outlier)
     
+    print(Counter(list_semi_labels))
     print(Counter(list_labels))
 
     return list_idx, list_labels, list_semi_labels
