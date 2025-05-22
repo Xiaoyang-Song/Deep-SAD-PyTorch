@@ -74,6 +74,7 @@ from datasets.main import load_dataset
 @click.option('--n_known_normal', type=int, default=None)
 @click.option('--n_pollution', type=int, default=None)
 @click.option('--sampler', type=str, default="original")
+@click.option('--regime', type=str, default=None)
 
 
 def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, eta,
@@ -81,7 +82,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, et
          optimizer_name, lr, n_epochs, lr_milestone, batch_size, weight_decay,
          pretrain, ae_optimizer_name, ae_lr, ae_n_epochs, ae_lr_milestone, ae_batch_size, ae_weight_decay,
          num_threads, n_jobs_dataloader, normal_class, known_outlier_class, n_known_outlier_classes,
-         n_known_outlier, n_known_normal, n_pollution, sampler):
+         n_known_outlier, n_known_normal, n_pollution, sampler, regime):
     """
     Deep SAD, a method for deep semi-supervised anomaly detection.
 
@@ -153,7 +154,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, et
     # Load data
     dataset = load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_known_outlier_classes,
                            ratio_known_normal, ratio_known_outlier, ratio_pollution, 
-                           n_known_normal=n_known_normal, n_known_outlier=n_known_outlier, n_pollution=n_pollution, sampler=sampler,
+                           n_known_normal=n_known_normal, n_known_outlier=n_known_outlier, n_pollution=n_pollution, sampler=sampler, regime=regime,
                            random_state=np.random.RandomState(cfg.settings['seed']))
     # Log random sample of known anomaly classes if more than 1 class
     if n_known_outlier_classes > 1:

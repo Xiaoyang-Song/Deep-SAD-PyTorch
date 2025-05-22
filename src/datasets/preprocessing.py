@@ -54,8 +54,8 @@ def create_semisupervised_setting_number(labels, normal_classes, outlier_classes
     list_semi_labels = (semi_labels_known_normal + semi_labels_unlabeled_normal + semi_labels_unlabeled_outlier
                         + semi_labels_known_outlier)
     
-    print(Counter(list_semi_labels))
-    print(Counter(list_labels))
+    # print(Counter(list_semi_labels))
+    # print(Counter(list_labels))
 
     return list_idx, list_labels, list_semi_labels
 

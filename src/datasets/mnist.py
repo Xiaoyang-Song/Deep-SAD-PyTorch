@@ -16,7 +16,7 @@ class MNIST_Dataset_Customized(TorchvisionDataset):
     def __init__(self, root: str, normal_class: int = 0, known_outlier_class: int = 1, 
                  n_known_outlier_classes=None, ratio_known_normal=None, ratio_known_outlier=None, ratio_pollution=None,
                  n_known_normal=None, n_known_outlier=None, n_pollution=None,
-                 sampler: str="original"):
+                 sampler: str="original", regime=None):
         super().__init__(root)
 
         # Define normal and outlier classes
@@ -75,6 +75,8 @@ class MNIST_Dataset_Customized(TorchvisionDataset):
             self.train_set = Subset(train_set, idx)
 
         elif sampler == "number-pre-sampled":
+            assert regime is not None and n_known_outlier is not None, \
+                "If sampler is 'number-pre-sampled', regime and n_outlier must be provided."
             print("Using number-pre-sampled sampler")
             train_idx_normal = get_target_label_idx(train_set.targets, self.normal_classes)
             # InD
@@ -83,7 +85,7 @@ class MNIST_Dataset_Customized(TorchvisionDataset):
             print(f"Train set shape: {InD_train_set.shape}")
 
             # OOD from pre-sampled data
-            OoD_path = os.path.join("..", "..", "Out-of-Distribution-GANs", "checkpoint", "OOD-Sample", "FashionMNIST", "OOD-Balanced-64.pt")
+            OoD_path = os.path.join("..", "..", "Out-of-Distribution-GANs", "checkpoint", "OOD-Sample", "FashionMNIST", f"OOD-{regime}-{n_known_outlier}.pt")
             OoD_data, OoD_labels = torch.load(OoD_path)
             OoD_train_set = np.array(OoD_data.squeeze())
 

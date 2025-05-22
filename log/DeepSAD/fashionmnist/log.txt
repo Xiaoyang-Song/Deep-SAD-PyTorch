@@ -1,0 +1,155 @@
+2025-05-22 00:46:17,642 - root - INFO - Log file is ../log/DeepSAD/fashionmnist/log.txt
+2025-05-22 00:46:17,642 - root - INFO - Data path is ../data
+2025-05-22 00:46:17,642 - root - INFO - Export path is ../log/DeepSAD/fashionmnist
+2025-05-22 00:46:17,642 - root - INFO - Dataset: fmnist
+2025-05-22 00:46:17,642 - root - INFO - Normal class: [0]
+2025-05-22 00:46:17,642 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-22 00:46:17,642 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-22 00:46:17,642 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-22 00:46:17,642 - root - INFO - Known anomaly class: 1
+2025-05-22 00:46:17,642 - root - INFO - Network: mnist_LeNet
+2025-05-22 00:46:17,642 - root - INFO - Eta-parameter: 1.00
+2025-05-22 00:46:17,644 - root - INFO - Set seed to 999.
+2025-05-22 00:46:17,672 - root - INFO - Computation device: cuda
+2025-05-22 00:46:17,673 - root - INFO - Number of threads: 0
+2025-05-22 00:46:17,673 - root - INFO - Number of dataloader workers: 0
+2025-05-22 00:46:26,424 - root - INFO - Pretraining: True
+2025-05-22 00:46:26,424 - root - INFO - Pretraining optimizer: adam
+2025-05-22 00:46:26,424 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-22 00:46:26,424 - root - INFO - Pretraining epochs: 150
+2025-05-22 00:46:26,424 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-22 00:46:26,424 - root - INFO - Pretraining batch size: 128
+2025-05-22 00:46:26,424 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-22 00:46:35,396 - root - INFO - Log file is ../log/DeepSAD/fashionmnist/log.txt
+2025-05-22 00:46:35,396 - root - INFO - Data path is ../data
+2025-05-22 00:46:35,396 - root - INFO - Export path is ../log/DeepSAD/fashionmnist
+2025-05-22 00:46:35,396 - root - INFO - Dataset: fmnist
+2025-05-22 00:46:35,396 - root - INFO - Normal class: [0]
+2025-05-22 00:46:35,396 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-22 00:46:35,396 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-22 00:46:35,396 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-22 00:46:35,396 - root - INFO - Known anomaly class: 1
+2025-05-22 00:46:35,397 - root - INFO - Network: mnist_LeNet
+2025-05-22 00:46:35,397 - root - INFO - Eta-parameter: 1.00
+2025-05-22 00:46:35,398 - root - INFO - Set seed to 999.
+2025-05-22 00:46:35,429 - root - INFO - Computation device: cuda
+2025-05-22 00:46:35,429 - root - INFO - Number of threads: 0
+2025-05-22 00:46:35,429 - root - INFO - Number of dataloader workers: 0
+2025-05-22 00:46:35,511 - root - INFO - Pretraining: True
+2025-05-22 00:46:35,512 - root - INFO - Pretraining optimizer: adam
+2025-05-22 00:46:35,512 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-22 00:46:35,512 - root - INFO - Pretraining epochs: 150
+2025-05-22 00:46:35,512 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-22 00:46:35,512 - root - INFO - Pretraining batch size: 128
+2025-05-22 00:46:35,512 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-22 00:46:38,706 - root - INFO - Starting pretraining...
+2025-05-22 00:46:38,708 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-22 00:46:39,728 - root - INFO - | Epoch: 001/150 | Train Time: 1.021s | Train Loss: 0.153643 |
+2025-05-22 00:46:40,469 - root - INFO - | Epoch: 002/150 | Train Time: 0.740s | Train Loss: 0.138261 |
+2025-05-22 00:46:41,208 - root - INFO - | Epoch: 003/150 | Train Time: 0.739s | Train Loss: 0.125096 |
+2025-05-22 00:46:41,948 - root - INFO - | Epoch: 004/150 | Train Time: 0.739s | Train Loss: 0.114114 |
+2025-05-22 00:46:42,689 - root - INFO - | Epoch: 005/150 | Train Time: 0.741s | Train Loss: 0.105015 |
+2025-05-22 00:46:43,429 - root - INFO - | Epoch: 006/150 | Train Time: 0.740s | Train Loss: 0.097740 |
+2025-05-22 00:46:44,170 - root - INFO - | Epoch: 007/150 | Train Time: 0.741s | Train Loss: 0.091831 |
+2025-05-22 00:46:44,910 - root - INFO - | Epoch: 008/150 | Train Time: 0.740s | Train Loss: 0.087181 |
+2025-05-22 00:46:45,654 - root - INFO - | Epoch: 009/150 | Train Time: 0.743s | Train Loss: 0.082975 |
+2025-05-22 00:46:46,396 - root - INFO - | Epoch: 010/150 | Train Time: 0.742s | Train Loss: 0.079353 |
+2025-05-22 00:46:47,138 - root - INFO - | Epoch: 011/150 | Train Time: 0.741s | Train Loss: 0.076122 |
+2025-05-22 00:46:47,878 - root - INFO - | Epoch: 012/150 | Train Time: 0.740s | Train Loss: 0.073267 |
+2025-05-22 00:46:48,620 - root - INFO - | Epoch: 013/150 | Train Time: 0.742s | Train Loss: 0.070750 |
+2025-05-22 00:46:49,362 - root - INFO - | Epoch: 014/150 | Train Time: 0.742s | Train Loss: 0.068426 |
+2025-05-22 00:46:56,729 - root - INFO - Log file is ../log/DeepSAD/fashionmnist/log.txt
+2025-05-22 00:46:56,729 - root - INFO - Data path is ../data
+2025-05-22 00:46:56,729 - root - INFO - Export path is ../log/DeepSAD/fashionmnist
+2025-05-22 00:46:56,729 - root - INFO - Dataset: fmnist
+2025-05-22 00:46:56,729 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-22 00:46:56,729 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-22 00:46:56,729 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-22 00:46:56,730 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-22 00:46:56,730 - root - INFO - Known anomaly class: 1
+2025-05-22 00:46:56,730 - root - INFO - Network: mnist_LeNet
+2025-05-22 00:46:56,730 - root - INFO - Eta-parameter: 1.00
+2025-05-22 00:46:56,731 - root - INFO - Set seed to 999.
+2025-05-22 00:46:56,762 - root - INFO - Computation device: cuda
+2025-05-22 00:46:56,762 - root - INFO - Number of threads: 0
+2025-05-22 00:46:56,762 - root - INFO - Number of dataloader workers: 0
+2025-05-22 00:46:56,865 - root - INFO - Pretraining: True
+2025-05-22 00:46:56,866 - root - INFO - Pretraining optimizer: adam
+2025-05-22 00:46:56,866 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-22 00:46:56,866 - root - INFO - Pretraining epochs: 150
+2025-05-22 00:46:56,866 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-22 00:46:56,866 - root - INFO - Pretraining batch size: 128
+2025-05-22 00:46:56,866 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-22 00:47:00,046 - root - INFO - Starting pretraining...
+2025-05-22 00:47:00,048 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-22 00:47:06,302 - root - INFO - | Epoch: 001/150 | Train Time: 6.254s | Train Loss: 0.138612 |
+2025-05-22 00:47:21,271 - root - INFO - Log file is ../log/DeepSAD/fashionmnist/log.txt
+2025-05-22 00:47:21,271 - root - INFO - Data path is ../data
+2025-05-22 00:47:21,271 - root - INFO - Export path is ../log/DeepSAD/fashionmnist
+2025-05-22 00:47:21,271 - root - INFO - Dataset: fmnist
+2025-05-22 00:47:21,271 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-22 00:47:21,271 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-22 00:47:21,271 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-22 00:47:21,271 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-22 00:47:21,271 - root - INFO - Known anomaly class: 1
+2025-05-22 00:47:21,271 - root - INFO - Network: mnist_LeNet
+2025-05-22 00:47:21,271 - root - INFO - Eta-parameter: 1.00
+2025-05-22 00:47:21,273 - root - INFO - Set seed to 999.
+2025-05-22 00:47:21,304 - root - INFO - Computation device: cuda
+2025-05-22 00:47:21,304 - root - INFO - Number of threads: 0
+2025-05-22 00:47:21,304 - root - INFO - Number of dataloader workers: 0
+2025-05-22 00:47:21,729 - root - INFO - Pretraining: True
+2025-05-22 00:47:21,729 - root - INFO - Pretraining optimizer: adam
+2025-05-22 00:47:21,729 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-22 00:47:21,729 - root - INFO - Pretraining epochs: 150
+2025-05-22 00:47:21,729 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-22 00:47:21,729 - root - INFO - Pretraining batch size: 128
+2025-05-22 00:47:21,729 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-22 00:47:24,933 - root - INFO - Starting pretraining...
+2025-05-22 00:47:24,935 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-22 00:47:30,387 - root - INFO - | Epoch: 001/150 | Train Time: 5.452s | Train Loss: 0.172985 |
+2025-05-22 00:47:35,466 - root - INFO - | Epoch: 002/150 | Train Time: 5.077s | Train Loss: 0.112058 |
+2025-05-22 00:47:40,641 - root - INFO - | Epoch: 003/150 | Train Time: 5.175s | Train Loss: 0.081005 |
+2025-05-22 00:47:45,727 - root - INFO - | Epoch: 004/150 | Train Time: 5.085s | Train Loss: 0.062001 |
+2025-05-22 00:49:06,060 - root - INFO - Log file is ../log/DeepSAD/fashionmnist/log.txt
+2025-05-22 00:49:06,080 - root - INFO - Data path is ../data
+2025-05-22 00:49:06,080 - root - INFO - Export path is ../log/DeepSAD/fashionmnist
+2025-05-22 00:49:06,080 - root - INFO - Dataset: fmnist
+2025-05-22 00:49:06,080 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-22 00:49:06,080 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-22 00:49:06,080 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-22 00:49:06,080 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-22 00:49:06,080 - root - INFO - Known anomaly class: 1
+2025-05-22 00:49:06,080 - root - INFO - Network: mnist_LeNet
+2025-05-22 00:49:06,080 - root - INFO - Eta-parameter: 1.00
+2025-05-22 00:49:06,084 - root - INFO - Set seed to 999.
+2025-05-22 00:49:06,116 - root - INFO - Computation device: cuda
+2025-05-22 00:49:06,116 - root - INFO - Number of threads: 0
+2025-05-22 00:49:06,116 - root - INFO - Number of dataloader workers: 0
+2025-05-22 00:49:06,719 - root - INFO - Pretraining: True
+2025-05-22 00:49:06,719 - root - INFO - Pretraining optimizer: adam
+2025-05-22 00:49:06,719 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-22 00:49:06,719 - root - INFO - Pretraining epochs: 150
+2025-05-22 00:49:06,719 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-22 00:49:06,719 - root - INFO - Pretraining batch size: 128
+2025-05-22 00:49:06,719 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-22 00:49:11,333 - root - INFO - Starting pretraining...
+2025-05-22 00:49:11,335 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-22 00:49:18,082 - root - INFO - | Epoch: 001/150 | Train Time: 6.746s | Train Loss: 0.172985 |
+2025-05-22 00:49:24,063 - root - INFO - | Epoch: 002/150 | Train Time: 5.981s | Train Loss: 0.112058 |
+2025-05-22 00:49:30,130 - root - INFO - | Epoch: 003/150 | Train Time: 6.066s | Train Loss: 0.081005 |
+2025-05-22 00:49:36,089 - root - INFO - | Epoch: 004/150 | Train Time: 5.958s | Train Loss: 0.062001 |
+2025-05-22 00:49:42,052 - root - INFO - | Epoch: 005/150 | Train Time: 5.963s | Train Loss: 0.048399 |
+2025-05-22 00:49:48,118 - root - INFO - | Epoch: 006/150 | Train Time: 6.066s | Train Loss: 0.040062 |
+2025-05-22 00:49:54,084 - root - INFO - | Epoch: 007/150 | Train Time: 5.966s | Train Loss: 0.034529 |
+2025-05-22 00:50:00,044 - root - INFO - | Epoch: 008/150 | Train Time: 5.960s | Train Loss: 0.030592 |
+2025-05-22 00:50:06,030 - root - INFO - | Epoch: 009/150 | Train Time: 5.986s | Train Loss: 0.027700 |
+2025-05-22 00:50:12,085 - root - INFO - | Epoch: 010/150 | Train Time: 6.054s | Train Loss: 0.025555 |
+2025-05-22 00:50:18,042 - root - INFO - | Epoch: 011/150 | Train Time: 5.956s | Train Loss: 0.023911 |
+2025-05-22 00:50:24,000 - root - INFO - | Epoch: 012/150 | Train Time: 5.958s | Train Loss: 0.022636 |
+2025-05-22 00:50:29,982 - root - INFO - | Epoch: 013/150 | Train Time: 5.982s | Train Loss: 0.021588 |
+2025-05-22 00:50:36,058 - root - INFO - | Epoch: 014/150 | Train Time: 6.075s | Train Loss: 0.020681 |
+2025-05-22 00:50:42,046 - root - INFO - | Epoch: 015/150 | Train Time: 5.988s | Train Loss: 0.019888 |
+2025-05-22 00:50:48,009 - root - INFO - | Epoch: 016/150 | Train Time: 5.962s | Train Loss: 0.019164 |
+2025-05-22 00:50:53,976 - root - INFO - | Epoch: 017/150 | Train Time: 5.967s | Train Loss: 0.018463 |
+2025-05-22 00:50:59,963 - root - INFO - | Epoch: 018/150 | Train Time: 5.987s | Train Loss: 0.017726 |
