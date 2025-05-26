@@ -1,0 +1,477 @@
+2025-05-26 16:13:29,192 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:13:29,192 - root - INFO - Data path is ../data
+2025-05-26 16:13:29,192 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:13:29,192 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:13:29,192 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:13:29,192 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:13:29,192 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:13:29,192 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:13:29,192 - root - INFO - Known anomaly class: 1
+2025-05-26 16:13:29,193 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:13:29,193 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:13:29,197 - root - INFO - Set seed to 999.
+2025-05-26 16:13:29,238 - root - INFO - Computation device: cuda
+2025-05-26 16:13:29,238 - root - INFO - Number of threads: 0
+2025-05-26 16:13:29,238 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:13:53,719 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:13:53,719 - root - INFO - Data path is ../data
+2025-05-26 16:13:53,719 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:13:53,719 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:13:53,719 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:13:53,719 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:13:53,719 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:13:53,719 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:13:53,719 - root - INFO - Known anomaly class: 1
+2025-05-26 16:13:53,719 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:13:53,719 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:13:53,721 - root - INFO - Set seed to 999.
+2025-05-26 16:13:53,748 - root - INFO - Computation device: cuda
+2025-05-26 16:13:53,748 - root - INFO - Number of threads: 0
+2025-05-26 16:13:53,748 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:15:25,185 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:15:25,185 - root - INFO - Data path is ../data
+2025-05-26 16:15:25,185 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:15:25,185 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:15:25,185 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:15:25,185 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:15:25,185 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:15:25,185 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:15:25,185 - root - INFO - Known anomaly class: 1
+2025-05-26 16:15:25,185 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:15:25,186 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:15:25,189 - root - INFO - Set seed to 999.
+2025-05-26 16:15:25,231 - root - INFO - Computation device: cuda
+2025-05-26 16:15:25,231 - root - INFO - Number of threads: 0
+2025-05-26 16:15:25,231 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:17:41,803 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:17:41,804 - root - INFO - Data path is ../data
+2025-05-26 16:17:41,804 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:17:41,804 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:17:41,804 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:17:41,804 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:17:41,804 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:17:41,804 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:17:41,804 - root - INFO - Known anomaly class: 1
+2025-05-26 16:17:41,804 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:17:41,804 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:17:41,809 - root - INFO - Set seed to 999.
+2025-05-26 16:17:41,838 - root - INFO - Computation device: cuda
+2025-05-26 16:17:41,838 - root - INFO - Number of threads: 0
+2025-05-26 16:17:41,838 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:18:26,889 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:18:26,889 - root - INFO - Data path is ../data
+2025-05-26 16:18:26,889 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:18:26,889 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:18:26,890 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:18:26,890 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:18:26,890 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:18:26,890 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:18:26,890 - root - INFO - Known anomaly class: 1
+2025-05-26 16:18:26,890 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:18:26,890 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:18:26,892 - root - INFO - Set seed to 999.
+2025-05-26 16:18:26,919 - root - INFO - Computation device: cuda
+2025-05-26 16:18:26,920 - root - INFO - Number of threads: 0
+2025-05-26 16:18:26,920 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:21:40,450 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:21:40,450 - root - INFO - Data path is ../data
+2025-05-26 16:21:40,450 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:21:40,450 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:21:40,450 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:21:40,450 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:21:40,450 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:21:40,450 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:21:40,451 - root - INFO - Known anomaly class: 1
+2025-05-26 16:21:40,451 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:21:40,451 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:21:40,455 - root - INFO - Set seed to 999.
+2025-05-26 16:21:40,485 - root - INFO - Computation device: cuda
+2025-05-26 16:21:40,485 - root - INFO - Number of threads: 0
+2025-05-26 16:21:40,486 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:22:09,113 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:22:09,113 - root - INFO - Data path is ../data
+2025-05-26 16:22:09,113 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:22:09,113 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:22:09,113 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:22:09,113 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:22:09,113 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:22:09,113 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:22:09,113 - root - INFO - Known anomaly class: 1
+2025-05-26 16:22:09,114 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:22:09,114 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:22:09,115 - root - INFO - Set seed to 999.
+2025-05-26 16:22:09,142 - root - INFO - Computation device: cuda
+2025-05-26 16:22:09,143 - root - INFO - Number of threads: 0
+2025-05-26 16:22:09,143 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:23:29,421 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:23:29,421 - root - INFO - Data path is ../data
+2025-05-26 16:23:29,421 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:23:29,421 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:23:29,421 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:23:29,421 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:23:29,421 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:23:29,421 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:23:29,421 - root - INFO - Known anomaly class: 1
+2025-05-26 16:23:29,421 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:23:29,423 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:23:29,426 - root - INFO - Set seed to 999.
+2025-05-26 16:23:29,454 - root - INFO - Computation device: cuda
+2025-05-26 16:23:29,455 - root - INFO - Number of threads: 0
+2025-05-26 16:23:29,455 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:23:33,749 - root - INFO - Pretraining: True
+2025-05-26 16:23:33,749 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:23:33,749 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:23:33,749 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:23:33,750 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:23:33,750 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:23:33,750 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:23:38,391 - root - INFO - Starting pretraining...
+2025-05-26 16:23:38,394 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:24:55,380 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:24:55,380 - root - INFO - Data path is ../data
+2025-05-26 16:24:55,380 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:24:55,380 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:24:55,380 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:24:55,380 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:24:55,380 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:24:55,380 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:24:55,381 - root - INFO - Known anomaly class: 1
+2025-05-26 16:24:55,381 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:24:55,381 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:24:55,385 - root - INFO - Set seed to 999.
+2025-05-26 16:24:55,414 - root - INFO - Computation device: cuda
+2025-05-26 16:24:55,414 - root - INFO - Number of threads: 0
+2025-05-26 16:24:55,414 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:24:59,198 - root - INFO - Pretraining: True
+2025-05-26 16:24:59,199 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:24:59,199 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:24:59,199 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:24:59,199 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:24:59,199 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:24:59,199 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:25:03,843 - root - INFO - Starting pretraining...
+2025-05-26 16:25:03,846 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:25:28,755 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:25:28,755 - root - INFO - Data path is ../data
+2025-05-26 16:25:28,755 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:25:28,755 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:25:28,755 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:25:28,756 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:25:28,756 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:25:28,756 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:25:28,756 - root - INFO - Known anomaly class: 1
+2025-05-26 16:25:28,756 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:25:28,756 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:25:28,758 - root - INFO - Set seed to 999.
+2025-05-26 16:25:28,785 - root - INFO - Computation device: cuda
+2025-05-26 16:25:28,786 - root - INFO - Number of threads: 0
+2025-05-26 16:25:28,786 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:25:32,598 - root - INFO - Pretraining: True
+2025-05-26 16:25:32,599 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:25:32,599 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:25:32,599 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:25:32,599 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:25:32,599 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:25:32,599 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:25:35,789 - root - INFO - Starting pretraining...
+2025-05-26 16:25:35,791 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:26:35,290 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:26:35,290 - root - INFO - Data path is ../data
+2025-05-26 16:26:35,290 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:26:35,290 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:26:35,290 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:26:35,290 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:26:35,290 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:26:35,290 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:26:35,290 - root - INFO - Known anomaly class: 1
+2025-05-26 16:26:35,291 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:26:35,291 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:26:35,292 - root - INFO - Set seed to 999.
+2025-05-26 16:26:35,319 - root - INFO - Computation device: cuda
+2025-05-26 16:26:35,319 - root - INFO - Number of threads: 0
+2025-05-26 16:26:35,320 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:26:39,398 - root - INFO - Pretraining: True
+2025-05-26 16:26:39,398 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:26:39,398 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:26:39,398 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:26:39,398 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:26:39,399 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:26:39,399 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:26:42,594 - root - INFO - Starting pretraining...
+2025-05-26 16:26:42,596 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:29:15,560 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:29:15,560 - root - INFO - Data path is ../data
+2025-05-26 16:29:15,561 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:29:15,561 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:29:15,561 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:29:15,561 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:29:15,561 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:29:15,561 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:29:15,561 - root - INFO - Known anomaly class: 1
+2025-05-26 16:29:15,561 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:29:15,561 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:29:15,565 - root - INFO - Set seed to 999.
+2025-05-26 16:29:15,594 - root - INFO - Computation device: cuda
+2025-05-26 16:29:15,594 - root - INFO - Number of threads: 0
+2025-05-26 16:29:15,594 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:29:19,334 - root - INFO - Pretraining: True
+2025-05-26 16:29:19,334 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:29:19,334 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:29:19,335 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:29:19,335 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:29:19,335 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:29:19,335 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:29:23,958 - root - INFO - Starting pretraining...
+2025-05-26 16:29:23,961 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:30:32,101 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:30:32,101 - root - INFO - Data path is ../data
+2025-05-26 16:30:32,101 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:30:32,101 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:30:32,101 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:30:32,101 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:30:32,102 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:30:32,102 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:30:32,102 - root - INFO - Known anomaly class: 1
+2025-05-26 16:30:32,103 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:30:32,103 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:30:32,104 - root - INFO - Set seed to 999.
+2025-05-26 16:30:32,131 - root - INFO - Computation device: cuda
+2025-05-26 16:30:32,131 - root - INFO - Number of threads: 0
+2025-05-26 16:30:32,132 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:30:35,352 - root - INFO - Pretraining: True
+2025-05-26 16:30:35,352 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:30:35,352 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:30:35,352 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:30:35,352 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:30:35,352 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:30:35,352 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:30:38,548 - root - INFO - Starting pretraining...
+2025-05-26 16:30:38,549 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:35:28,502 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:35:28,502 - root - INFO - Data path is ../data
+2025-05-26 16:35:28,502 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:35:28,502 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:35:28,502 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:35:28,502 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:35:28,502 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:35:28,503 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:35:28,503 - root - INFO - Known anomaly class: 1
+2025-05-26 16:35:28,503 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:35:28,503 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:35:28,507 - root - INFO - Set seed to 999.
+2025-05-26 16:35:28,539 - root - INFO - Computation device: cuda
+2025-05-26 16:35:28,539 - root - INFO - Number of threads: 0
+2025-05-26 16:35:28,539 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:35:31,784 - root - INFO - Pretraining: True
+2025-05-26 16:35:31,784 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:35:31,784 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:35:31,784 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:35:31,784 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:35:31,784 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:35:31,784 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:35:36,615 - root - INFO - Starting pretraining...
+2025-05-26 16:35:36,617 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:39:00,780 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:39:00,780 - root - INFO - Data path is ../data
+2025-05-26 16:39:00,780 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:39:00,780 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:39:00,780 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:39:00,780 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:39:00,780 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:39:00,780 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:39:00,780 - root - INFO - Known anomaly class: 1
+2025-05-26 16:39:00,780 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:39:00,781 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:39:00,792 - root - INFO - Set seed to 999.
+2025-05-26 16:39:00,836 - root - INFO - Computation device: cuda
+2025-05-26 16:39:00,836 - root - INFO - Number of threads: 0
+2025-05-26 16:39:00,836 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:39:04,924 - root - INFO - Pretraining: True
+2025-05-26 16:39:04,924 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:39:04,924 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:39:04,924 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:39:04,925 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:39:04,925 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:39:04,925 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:39:09,839 - root - INFO - Starting pretraining...
+2025-05-26 16:39:09,841 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:44:02,949 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:44:02,949 - root - INFO - Data path is ../data
+2025-05-26 16:44:02,949 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:44:02,949 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:44:02,949 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:44:02,949 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:44:02,950 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:44:02,950 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:44:02,950 - root - INFO - Known anomaly class: 1
+2025-05-26 16:44:02,950 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:44:02,950 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:44:02,954 - root - INFO - Set seed to 999.
+2025-05-26 16:44:02,982 - root - INFO - Computation device: cuda
+2025-05-26 16:44:02,982 - root - INFO - Number of threads: 0
+2025-05-26 16:44:02,982 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:44:06,286 - root - INFO - Pretraining: True
+2025-05-26 16:44:06,286 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:44:06,286 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:44:06,286 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:44:06,286 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:44:06,286 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:44:06,286 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:44:09,937 - root - INFO - Starting pretraining...
+2025-05-26 16:44:09,939 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:44:20,749 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:44:20,749 - root - INFO - Data path is ../data
+2025-05-26 16:44:20,749 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:44:20,749 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:44:20,750 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:44:20,750 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:44:20,750 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:44:20,750 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:44:20,750 - root - INFO - Known anomaly class: 1
+2025-05-26 16:44:20,750 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:44:20,750 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:44:20,752 - root - INFO - Set seed to 999.
+2025-05-26 16:44:20,779 - root - INFO - Computation device: cuda
+2025-05-26 16:44:20,779 - root - INFO - Number of threads: 0
+2025-05-26 16:44:20,779 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:44:23,744 - root - INFO - Pretraining: True
+2025-05-26 16:44:23,744 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:44:23,745 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:44:23,745 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:44:23,745 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:44:23,745 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:44:23,745 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:44:26,945 - root - INFO - Starting pretraining...
+2025-05-26 16:44:26,946 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:45:53,410 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:45:53,411 - root - INFO - Data path is ../data
+2025-05-26 16:45:53,411 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:45:53,411 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:45:53,411 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:45:53,411 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:45:53,411 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:45:53,411 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:45:53,411 - root - INFO - Known anomaly class: 1
+2025-05-26 16:45:53,411 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:45:53,411 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:45:53,415 - root - INFO - Set seed to 999.
+2025-05-26 16:45:53,447 - root - INFO - Computation device: cuda
+2025-05-26 16:45:53,447 - root - INFO - Number of threads: 0
+2025-05-26 16:45:53,447 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:45:56,435 - root - INFO - Pretraining: True
+2025-05-26 16:45:56,436 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:45:56,436 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:45:56,436 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:45:56,436 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:45:56,436 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:45:56,436 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:46:00,019 - root - INFO - Starting pretraining...
+2025-05-26 16:46:00,021 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:46:10,831 - root - INFO - | Epoch: 001/150 | Train Time: 10.810s | Train Loss: 0.047282 |
+2025-05-26 16:46:31,415 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:46:31,415 - root - INFO - Data path is ../data
+2025-05-26 16:46:31,415 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:46:31,415 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:46:31,415 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:46:31,415 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:46:31,416 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:46:31,416 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:46:31,416 - root - INFO - Known anomaly class: 1
+2025-05-26 16:46:31,416 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:46:31,416 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:46:31,417 - root - INFO - Set seed to 999.
+2025-05-26 16:46:31,457 - root - INFO - Computation device: cuda
+2025-05-26 16:46:31,458 - root - INFO - Number of threads: 0
+2025-05-26 16:46:31,458 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:46:34,420 - root - INFO - Pretraining: True
+2025-05-26 16:46:34,421 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:46:34,421 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:46:34,421 - root - INFO - Pretraining epochs: 150
+2025-05-26 16:46:34,421 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:46:34,421 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:46:34,421 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:46:37,623 - root - INFO - Starting pretraining...
+2025-05-26 16:46:37,625 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:46:48,020 - root - INFO - | Epoch: 001/150 | Train Time: 10.395s | Train Loss: 0.047282 |
+2025-05-26 16:46:58,087 - root - INFO - | Epoch: 002/150 | Train Time: 10.066s | Train Loss: 0.027767 |
+2025-05-26 16:47:08,138 - root - INFO - | Epoch: 003/150 | Train Time: 10.051s | Train Loss: 0.023326 |
+2025-05-26 16:47:18,139 - root - INFO - | Epoch: 004/150 | Train Time: 10.000s | Train Loss: 0.020859 |
+2025-05-26 16:47:28,244 - root - INFO - | Epoch: 005/150 | Train Time: 10.104s | Train Loss: 0.019225 |
+2025-05-26 16:47:35,558 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:47:35,558 - root - INFO - Data path is ../data
+2025-05-26 16:47:35,559 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:47:35,559 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:47:35,559 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:47:35,559 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:47:35,559 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:47:35,559 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:47:35,559 - root - INFO - Known anomaly class: 1
+2025-05-26 16:47:35,559 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:47:35,559 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:47:35,561 - root - INFO - Set seed to 999.
+2025-05-26 16:47:35,591 - root - INFO - Computation device: cuda
+2025-05-26 16:47:35,591 - root - INFO - Number of threads: 0
+2025-05-26 16:47:35,592 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:47:38,564 - root - INFO - Pretraining: True
+2025-05-26 16:47:38,564 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:47:38,565 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:47:38,565 - root - INFO - Pretraining epochs: 1
+2025-05-26 16:47:38,565 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:47:38,565 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:47:38,565 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:47:41,764 - root - INFO - Starting pretraining...
+2025-05-26 16:47:41,765 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:47:52,146 - root - INFO - | Epoch: 001/001 | Train Time: 10.380s | Train Loss: 0.047282 |
+2025-05-26 16:47:52,146 - root - INFO - Pretraining Time: 10.382s
+2025-05-26 16:47:52,146 - root - INFO - Finished pretraining.
+2025-05-26 16:47:52,147 - root - INFO - Testing autoencoder...
+2025-05-26 16:48:17,154 - root - INFO - Log file is ../log/DeepSAD/cifar10-svhn/log.txt
+2025-05-26 16:48:17,155 - root - INFO - Data path is ../data
+2025-05-26 16:48:17,155 - root - INFO - Export path is ../log/DeepSAD/cifar10-svhn
+2025-05-26 16:48:17,155 - root - INFO - Dataset: cifar10-svhn
+2025-05-26 16:48:17,155 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-05-26 16:48:17,155 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-05-26 16:48:17,155 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-05-26 16:48:17,155 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-05-26 16:48:17,155 - root - INFO - Known anomaly class: 1
+2025-05-26 16:48:17,155 - root - INFO - Network: cifar10_LeNet
+2025-05-26 16:48:17,155 - root - INFO - Eta-parameter: 1.00
+2025-05-26 16:48:17,157 - root - INFO - Set seed to 999.
+2025-05-26 16:48:17,184 - root - INFO - Computation device: cuda
+2025-05-26 16:48:17,184 - root - INFO - Number of threads: 0
+2025-05-26 16:48:17,184 - root - INFO - Number of dataloader workers: 0
+2025-05-26 16:48:20,154 - root - INFO - Pretraining: True
+2025-05-26 16:48:20,155 - root - INFO - Pretraining optimizer: adam
+2025-05-26 16:48:20,155 - root - INFO - Pretraining learning rate: 0.0001
+2025-05-26 16:48:20,155 - root - INFO - Pretraining epochs: 1
+2025-05-26 16:48:20,155 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-05-26 16:48:20,155 - root - INFO - Pretraining batch size: 128
+2025-05-26 16:48:20,155 - root - INFO - Pretraining weight decay: 0.0005
+2025-05-26 16:48:23,372 - root - INFO - Starting pretraining...
+2025-05-26 16:48:23,374 - root - INFO -   LR scheduler: new learning rate is 1e-05
+2025-05-26 16:48:33,859 - root - INFO - | Epoch: 001/001 | Train Time: 10.485s | Train Loss: 0.047282 |
+2025-05-26 16:48:33,859 - root - INFO - Pretraining Time: 10.487s
+2025-05-26 16:48:33,859 - root - INFO - Finished pretraining.
+2025-05-26 16:48:33,860 - root - INFO - Testing autoencoder...
+2025-05-26 16:48:39,027 - root - INFO - Test Loss: 0.021193
+2025-05-26 16:48:39,027 - root - INFO - Test AUC: 19.18%
+2025-05-26 16:48:39,027 - root - INFO - Test Time: 5.034s
+2025-05-26 16:48:39,029 - root - INFO - Finished testing autoencoder.
+2025-05-26 16:48:39,033 - root - INFO - Training optimizer: adam
+2025-05-26 16:48:39,033 - root - INFO - Training learning rate: 0.0001
+2025-05-26 16:48:39,033 - root - INFO - Training epochs: 1
+2025-05-26 16:48:39,033 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-05-26 16:48:39,033 - root - INFO - Training batch size: 128
+2025-05-26 16:48:39,033 - root - INFO - Training weight decay: 5e-07
+2025-05-26 16:48:39,034 - root - INFO - Initializing center c...
+2025-05-26 16:48:44,814 - root - INFO - Center c initialized.
+2025-05-26 16:48:44,814 - root - INFO - Starting training...
+2025-05-26 16:48:52,411 - root - INFO - | Epoch: 001/001 | Train Time: 7.596s | Train Loss: 1.321345 |
+2025-05-26 16:48:52,411 - root - INFO - Training Time: 7.597s
+2025-05-26 16:48:52,411 - root - INFO - Finished training.
+2025-05-26 16:48:52,412 - root - INFO - Starting testing...
+2025-05-26 16:48:56,761 - root - INFO - Testing TPR95: 0.0228
+2025-05-26 16:48:56,761 - root - INFO - Test Loss: 0.133621
+2025-05-26 16:48:56,761 - root - INFO - Test AUC: 25.76%
+2025-05-26 16:48:56,761 - root - INFO - Test Time: 4.326s
+2025-05-26 16:48:56,761 - root - INFO - Finished testing.

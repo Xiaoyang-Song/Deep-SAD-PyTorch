@@ -1,6 +1,7 @@
 from .mnist import MNIST_Dataset, MNIST_Dataset_Customized
 from .fmnist import FashionMNIST_Dataset, FashionMNIST_Dataset_Customized
 from .cifar10 import CIFAR10_Dataset
+from .btn_dset import BTN_Dataset
 from .odds import ODDSADDataset
 
 
@@ -11,6 +12,7 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
     """Loads the dataset."""
 
     implemented_datasets = ('mnist', 'fmnist', 'cifar10',
+                            'cifar10-svhn', 'mnist-fashionmnist',
                             'arrhythmia', 'cardio', 'satellite', 'satimage-2', 'shuttle', 'thyroid')
     assert dataset_name in implemented_datasets
 
@@ -58,6 +60,22 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
                                            n_pollution=n_pollution,
                                            sampler=sampler,
                                            regime=regime)
+        
+    if dataset_name == 'cifar10-svhn':
+        dataset = BTN_Dataset(root=data_path,
+                            normal_class=normal_class,
+                            known_outlier_class=known_outlier_class,
+                            n_known_outlier_classes=n_known_outlier_classes,
+                            ratio_known_normal=ratio_known_normal,
+                            ratio_known_outlier=ratio_known_outlier,
+                            ratio_pollution=ratio_pollution,
+                            n_known_normal=n_known_normal,
+                            n_known_outlier=n_known_outlier,
+                            n_pollution=n_pollution,
+                            sampler=sampler,
+                            regime=regime,
+                            ind = 'cifar10',
+                            ood = 'svhn')
         
     if dataset_name == 'cifar10':
         dataset = CIFAR10_Dataset(root=data_path,
