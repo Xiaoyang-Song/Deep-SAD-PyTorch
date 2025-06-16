@@ -1,15 +1,16 @@
 
-sbatch jobs/fmnist/8.sh
-sbatch jobs/fmnist/16.sh
-sbatch jobs/fmnist/32.sh
-sbatch jobs/fmnist/64.sh
-sbatch jobs/fmnist/128.sh
-sbatch jobs/fmnist/256.sh
-sbatch jobs/fmnist/512.sh
-sbatch jobs/fmnist/1024.sh
-sbatch jobs/fmnist/2048.sh
-sbatch jobs/fmnist/4096.sh
+# sbatch jobs/fmnist/8.sh
+# sbatch jobs/fmnist/16.sh
+# sbatch jobs/fmnist/32.sh
+# sbatch jobs/fmnist/64.sh
+# sbatch jobs/fmnist/128.sh
+# sbatch jobs/fmnist/256.sh
+# sbatch jobs/fmnist/512.sh
+# sbatch jobs/fmnist/1024.sh
+# sbatch jobs/fmnist/2048.sh
+# sbatch jobs/fmnist/4096.sh
 
+# REDO later
 sbatch jobs/fmnist-R2/8.sh
 sbatch jobs/fmnist-R2/16.sh
 sbatch jobs/fmnist-R2/32.sh
@@ -54,24 +55,24 @@ sbatch jobs/fmnist-R2/4096.sh
 # sbatch jobs/mnist-fashionmnist/2048.sh
 # sbatch jobs/mnist-fashionmnist/4096.sh
 
-sbatch jobs/svhn/8.sh
-sbatch jobs/svhn/16.sh
-sbatch jobs/svhn/32.sh
-sbatch jobs/svhn/64.sh
-sbatch jobs/svhn/128.sh
-sbatch jobs/svhn/256.sh
-sbatch jobs/svhn/512.sh
-sbatch jobs/svhn/1024.sh
-sbatch jobs/svhn/2048.sh
-sbatch jobs/svhn/4096.sh
+# sbatch jobs/svhn/8.sh
+# sbatch jobs/svhn/16.sh
+# sbatch jobs/svhn/32.sh
+# sbatch jobs/svhn/64.sh
+# sbatch jobs/svhn/128.sh
+# sbatch jobs/svhn/256.sh
+# sbatch jobs/svhn/512.sh
+# sbatch jobs/svhn/1024.sh
+# sbatch jobs/svhn/2048.sh
+# sbatch jobs/svhn/4096.sh
 
-sbatch jobs/svhn-R2/8.sh
-sbatch jobs/svhn-R2/16.sh
-sbatch jobs/svhn-R2/32.sh
-sbatch jobs/svhn-R2/64.sh
-sbatch jobs/svhn-R2/128.sh
-sbatch jobs/svhn-R2/256.sh
-sbatch jobs/svhn-R2/512.sh
-sbatch jobs/svhn-R2/1024.sh
-sbatch jobs/svhn-R2/2048.sh
-sbatch jobs/svhn-R2/4096.sh
+# sbatch jobs/svhn-R2/8.sh
+# sbatch jobs/svhn-R2/16.sh
+# sbatch jobs/svhn-R2/32.sh
+# sbatch jobs/svhn-R2/64.sh
+# sbatch jobs/svhn-R2/128.sh
+# sbatch jobs/svhn-R2/256.sh
+# sbatch jobs/svhn-R2/512.sh
+# sbatch jobs/svhn-R2/1024.sh
+# sbatch jobs/svhn-R2/2048.sh
+# sbatch jobs/svhn-R2/4096.sh

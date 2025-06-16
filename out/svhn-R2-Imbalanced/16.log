@@ -1,0 +1,150 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+INFO:root:Log file is ../log/DeepSAD/svhn-R2-Imbalanced-16/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/svhn-R2-Imbalanced-16
+INFO:root:Dataset: svhn-R2
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: cifar10_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 13.226s | Train Loss: 0.010761 |
+INFO:root:| Epoch: 002/100 | Train Time: 12.842s | Train Loss: 0.005491 |
+INFO:root:| Epoch: 003/100 | Train Time: 12.877s | Train Loss: 0.004507 |
+INFO:root:| Epoch: 004/100 | Train Time: 12.762s | Train Loss: 0.003985 |
+INFO:root:| Epoch: 005/100 | Train Time: 12.908s | Train Loss: 0.003599 |
+INFO:root:| Epoch: 006/100 | Train Time: 12.784s | Train Loss: 0.003326 |
+INFO:root:| Epoch: 007/100 | Train Time: 12.746s | Train Loss: 0.003175 |
+INFO:root:| Epoch: 008/100 | Train Time: 12.887s | Train Loss: 0.003008 |
+INFO:root:| Epoch: 009/100 | Train Time: 12.799s | Train Loss: 0.002873 |
+INFO:root:| Epoch: 010/100 | Train Time: 12.751s | Train Loss: 0.002747 |
+INFO:root:| Epoch: 011/100 | Train Time: 12.746s | Train Loss: 0.002689 |
+INFO:root:| Epoch: 012/100 | Train Time: 12.882s | Train Loss: 0.002631 |
+INFO:root:| Epoch: 013/100 | Train Time: 12.811s | Train Loss: 0.002547 |
+INFO:root:| Epoch: 014/100 | Train Time: 12.782s | Train Loss: 0.002482 |
+INFO:root:| Epoch: 015/100 | Train Time: 12.781s | Train Loss: 0.002424 |
+INFO:root:| Epoch: 016/100 | Train Time: 12.785s | Train Loss: 0.002377 |
+INFO:root:| Epoch: 017/100 | Train Time: 12.916s | Train Loss: 0.002295 |
+INFO:root:| Epoch: 018/100 | Train Time: 12.810s | Train Loss: 0.002280 |
+INFO:root:| Epoch: 019/100 | Train Time: 12.761s | Train Loss: 0.002217 |
+INFO:root:| Epoch: 020/100 | Train Time: 12.777s | Train Loss: 0.002195 |
+INFO:root:| Epoch: 021/100 | Train Time: 12.772s | Train Loss: 0.002149 |
+INFO:root:| Epoch: 022/100 | Train Time: 12.928s | Train Loss: 0.002117 |
+INFO:root:| Epoch: 023/100 | Train Time: 12.799s | Train Loss: 0.002141 |
+INFO:root:| Epoch: 024/100 | Train Time: 12.766s | Train Loss: 0.002085 |
+INFO:root:| Epoch: 025/100 | Train Time: 12.770s | Train Loss: 0.002079 |
+INFO:root:| Epoch: 026/100 | Train Time: 12.781s | Train Loss: 0.002041 |
+INFO:root:| Epoch: 027/100 | Train Time: 12.949s | Train Loss: 0.002019 |
+INFO:root:| Epoch: 028/100 | Train Time: 12.800s | Train Loss: 0.002013 |
+INFO:root:| Epoch: 029/100 | Train Time: 12.784s | Train Loss: 0.001950 |
+INFO:root:| Epoch: 030/100 | Train Time: 12.819s | Train Loss: 0.001996 |
+INFO:root:| Epoch: 031/100 | Train Time: 12.808s | Train Loss: 0.001957 |
+INFO:root:| Epoch: 032/100 | Train Time: 12.974s | Train Loss: 0.001959 |
+INFO:root:| Epoch: 033/100 | Train Time: 12.801s | Train Loss: 0.001927 |
+INFO:root:| Epoch: 034/100 | Train Time: 12.779s | Train Loss: 0.001909 |
+INFO:root:| Epoch: 035/100 | Train Time: 12.784s | Train Loss: 0.001910 |
+INFO:root:| Epoch: 036/100 | Train Time: 12.818s | Train Loss: 0.001869 |
+INFO:root:| Epoch: 037/100 | Train Time: 12.950s | Train Loss: 0.001864 |
+INFO:root:| Epoch: 038/100 | Train Time: 12.800s | Train Loss: 0.001861 |
+INFO:root:| Epoch: 039/100 | Train Time: 12.801s | Train Loss: 0.001845 |
+INFO:root:| Epoch: 040/100 | Train Time: 12.808s | Train Loss: 0.001827 |
+INFO:root:| Epoch: 041/100 | Train Time: 12.847s | Train Loss: 0.001848 |
+INFO:root:| Epoch: 042/100 | Train Time: 12.929s | Train Loss: 0.001830 |
+INFO:root:| Epoch: 043/100 | Train Time: 12.813s | Train Loss: 0.001820 |
+INFO:root:| Epoch: 044/100 | Train Time: 12.806s | Train Loss: 0.001859 |
+INFO:root:| Epoch: 045/100 | Train Time: 12.802s | Train Loss: 0.001780 |
+INFO:root:| Epoch: 046/100 | Train Time: 12.895s | Train Loss: 0.001797 |
+INFO:root:| Epoch: 047/100 | Train Time: 12.918s | Train Loss: 0.001785 |
+INFO:root:| Epoch: 048/100 | Train Time: 12.816s | Train Loss: 0.001777 |
+INFO:root:| Epoch: 049/100 | Train Time: 12.828s | Train Loss: 0.001774 |
+INFO:root:| Epoch: 050/100 | Train Time: 12.820s | Train Loss: 0.001761 |
+INFO:root:| Epoch: 051/100 | Train Time: 12.928s | Train Loss: 0.001762 |
+INFO:root:| Epoch: 052/100 | Train Time: 12.889s | Train Loss: 0.001784 |
+INFO:root:| Epoch: 053/100 | Train Time: 12.822s | Train Loss: 0.001748 |
+INFO:root:| Epoch: 054/100 | Train Time: 12.806s | Train Loss: 0.001774 |
+INFO:root:| Epoch: 055/100 | Train Time: 12.818s | Train Loss: 0.001746 |
+INFO:root:| Epoch: 056/100 | Train Time: 12.962s | Train Loss: 0.001750 |
+INFO:root:| Epoch: 057/100 | Train Time: 12.869s | Train Loss: 0.001733 |
+INFO:root:| Epoch: 058/100 | Train Time: 12.818s | Train Loss: 0.001739 |
+INFO:root:| Epoch: 059/100 | Train Time: 12.812s | Train Loss: 0.001689 |
+INFO:root:| Epoch: 060/100 | Train Time: 12.806s | Train Loss: 0.001701 |
+INFO:root:| Epoch: 061/100 | Train Time: 12.960s | Train Loss: 0.001723 |
+INFO:root:| Epoch: 062/100 | Train Time: 12.848s | Train Loss: 0.001722 |
+INFO:root:| Epoch: 063/100 | Train Time: 12.822s | Train Loss: 0.001714 |
+INFO:root:| Epoch: 064/100 | Train Time: 12.817s | Train Loss: 0.001735 |
+INFO:root:| Epoch: 065/100 | Train Time: 12.835s | Train Loss: 0.001696 |
+INFO:root:| Epoch: 066/100 | Train Time: 12.998s | Train Loss: 0.001700 |
+INFO:root:| Epoch: 067/100 | Train Time: 12.855s | Train Loss: 0.001702 |
+INFO:root:| Epoch: 068/100 | Train Time: 12.832s | Train Loss: 0.001669 |
+INFO:root:| Epoch: 069/100 | Train Time: 12.833s | Train Loss: 0.001714 |
+INFO:root:| Epoch: 070/100 | Train Time: 12.836s | Train Loss: 0.001664 |
+INFO:root:| Epoch: 071/100 | Train Time: 12.986s | Train Loss: 0.001659 |
+INFO:root:| Epoch: 072/100 | Train Time: 12.816s | Train Loss: 0.001657 |
+INFO:root:| Epoch: 073/100 | Train Time: 12.817s | Train Loss: 0.001665 |
+INFO:root:| Epoch: 074/100 | Train Time: 12.828s | Train Loss: 0.001678 |
+INFO:root:| Epoch: 075/100 | Train Time: 12.821s | Train Loss: 0.001682 |
+INFO:root:| Epoch: 076/100 | Train Time: 12.981s | Train Loss: 0.001676 |
+INFO:root:| Epoch: 077/100 | Train Time: 12.811s | Train Loss: 0.001647 |
+INFO:root:| Epoch: 078/100 | Train Time: 12.815s | Train Loss: 0.001656 |
+INFO:root:| Epoch: 079/100 | Train Time: 12.795s | Train Loss: 0.001641 |
+INFO:root:| Epoch: 080/100 | Train Time: 12.840s | Train Loss: 0.001629 |
+INFO:root:| Epoch: 081/100 | Train Time: 12.968s | Train Loss: 0.001629 |
+INFO:root:| Epoch: 082/100 | Train Time: 12.829s | Train Loss: 0.001630 |
+INFO:root:| Epoch: 083/100 | Train Time: 12.819s | Train Loss: 0.001623 |
+INFO:root:| Epoch: 084/100 | Train Time: 12.827s | Train Loss: 0.001599 |
+INFO:root:| Epoch: 085/100 | Train Time: 12.893s | Train Loss: 0.001644 |
+INFO:root:| Epoch: 086/100 | Train Time: 12.913s | Train Loss: 0.001626 |
+INFO:root:| Epoch: 087/100 | Train Time: 12.799s | Train Loss: 0.001628 |
+INFO:root:| Epoch: 088/100 | Train Time: 12.817s | Train Loss: 0.001635 |
+INFO:root:| Epoch: 089/100 | Train Time: 12.806s | Train Loss: 0.001602 |
+INFO:root:| Epoch: 090/100 | Train Time: 12.910s | Train Loss: 0.001601 |
+INFO:root:| Epoch: 091/100 | Train Time: 12.889s | Train Loss: 0.001584 |
+INFO:root:| Epoch: 092/100 | Train Time: 12.802s | Train Loss: 0.001617 |
+INFO:root:| Epoch: 093/100 | Train Time: 12.805s | Train Loss: 0.001575 |
+INFO:root:| Epoch: 094/100 | Train Time: 12.802s | Train Loss: 0.001578 |
+INFO:root:| Epoch: 095/100 | Train Time: 12.958s | Train Loss: 0.001621 |
+INFO:root:| Epoch: 096/100 | Train Time: 12.881s | Train Loss: 0.001592 |
+INFO:root:| Epoch: 097/100 | Train Time: 12.819s | Train Loss: 0.001566 |
+INFO:root:| Epoch: 098/100 | Train Time: 12.819s | Train Loss: 0.001587 |
+INFO:root:| Epoch: 099/100 | Train Time: 12.836s | Train Loss: 0.001556 |
+INFO:root:| Epoch: 100/100 | Train Time: 12.994s | Train Loss: 0.001552 |
+INFO:root:Pretraining Time: 1284.495s
+INFO:root:Finished pretraining.
+INFO:root:Testing autoencoder...
+INFO:root:Test Loss: 0.001401
+INFO:root:Test AUC: 53.78%
+INFO:root:Test Time: 3.883s
+INFO:root:Finished testing autoencoder.
+INFO:root:Training optimizer: adam
+INFO:root:Training learning rate: 0.0001
+INFO:root:Training epochs: 150
+INFO:root:Training learning rate scheduler milestones: (50,)
+INFO:root:Training batch size: 128
+INFO:root:Training weight decay: 5e-07
+INFO:root:Initializing center c...
+INFO:root:Center c initialized.
+INFO:root:Starting training...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+INFO:root:| Epoch: 001/150 | Train Time: 10.162s | Train Loss: 0.744986 |
+INFO:root:| Epoch: 002/150 | Train Time: 10.164s | Train Loss: 0.057456 |
+INFO:root:| Epoch: 003/150 | Train Time: 10.157s | Train Loss: 0.036046 |

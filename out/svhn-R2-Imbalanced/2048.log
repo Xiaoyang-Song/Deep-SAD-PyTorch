@@ -1,0 +1,38 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+INFO:root:Log file is ../log/DeepSAD/svhn-R2-Imbalanced-2048/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/svhn-R2-Imbalanced-2048
+INFO:root:Dataset: svhn-R2
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: cifar10_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 13.592s | Train Loss: 0.013392 |
+INFO:root:| Epoch: 002/100 | Train Time: 13.329s | Train Loss: 0.008028 |
+INFO:root:| Epoch: 003/100 | Train Time: 13.159s | Train Loss: 0.006898 |
+INFO:root:| Epoch: 004/100 | Train Time: 13.319s | Train Loss: 0.006268 |
+INFO:root:| Epoch: 005/100 | Train Time: 13.162s | Train Loss: 0.005843 |
+INFO:root:| Epoch: 006/100 | Train Time: 13.296s | Train Loss: 0.005557 |
+INFO:root:| Epoch: 007/100 | Train Time: 13.149s | Train Loss: 0.005326 |
+INFO:root:| Epoch: 008/100 | Train Time: 13.166s | Train Loss: 0.005192 |
+INFO:root:| Epoch: 009/100 | Train Time: 13.297s | Train Loss: 0.005010 |

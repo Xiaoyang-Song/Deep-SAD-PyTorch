@@ -4,7 +4,7 @@ import numpy as np
 
 # GL
 ACCOUNT = 'sunwbgt0'
-TIME = "2:00:00"
+TIME = "4:00:00"
 # Configuration
 # EXP_DSET = 'fmnist'
 # EXP_DSET = 'fmnist-R2'
