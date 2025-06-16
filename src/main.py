@@ -15,7 +15,7 @@ from datasets.main import load_dataset
 ################################################################################
 @click.command()
 @click.argument('dataset_name', type=click.Choice(['mnist', 'fmnist', 'cifar10', 'arrhythmia', 'cardio', 'satellite',
-                                                   'satimage-2', 'shuttle', 'thyroid', 'fmnist-R2', 'svhn-R2',
+                                                   'satimage-2', 'shuttle', 'thyroid', 'fmnist-R2', 'svhn', 'svhn-R2',
                                                    'cifar10-svhn', 'mnist-fashionmnist']))
 @click.argument('net_name', type=click.Choice(['mnist_LeNet', 'fmnist_LeNet', 'cifar10_LeNet', 'arrhythmia_mlp',
                                                'cardio_mlp', 'satellite_mlp', 'satimage-2_mlp', 'shuttle_mlp',
@@ -102,7 +102,7 @@ def main(dataset_name, net_name, xp_path, data_path, load_config, load_model, et
     logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     log_file = xp_path + '/log.txt'
-    file_handler = logging.FileHandler(log_file)
+    file_handler = logging.FileHandler(log_file, mode='w')
     file_handler.setLevel(logging.INFO)
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)

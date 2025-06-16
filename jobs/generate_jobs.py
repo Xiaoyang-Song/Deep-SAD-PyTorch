@@ -9,8 +9,10 @@ TIME = "4:00:00"
 # EXP_DSET = 'fmnist-R2'
 # EXP_DSET = 'cifar10-svhn'
 # EXP_DSET = 'mnist'
-EXP_DSET = 'mnist-fashionmnist'  # 'mnist', 'fmnist', 'cifar10-svhn', 'cifar10', 'fmnist-R2', 'mnist-fashionmnist'
-regime = 'Balanced'
+# EXP_DSET = 'mnist-fashionmnist' 
+# EXP_DSET = 'svhn' 
+EXP_DSET = 'svhn-R2'
+regime = 'Imbalanced'
 
 if EXP_DSET in ['mnist', 'fmnist', 'fmnist-R2' 'mnist-fashionmnist']:
     backbone = 'mnist_LeNet'

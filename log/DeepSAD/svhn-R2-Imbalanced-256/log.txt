@@ -1,0 +1,50 @@
+2025-06-16 15:26:15,697 - root - INFO - Log file is ../log/DeepSAD/svhn-R2-Imbalanced-256/log.txt
+2025-06-16 15:26:15,698 - root - INFO - Data path is ../data
+2025-06-16 15:26:15,698 - root - INFO - Export path is ../log/DeepSAD/svhn-R2-Imbalanced-256
+2025-06-16 15:26:15,698 - root - INFO - Dataset: svhn-R2
+2025-06-16 15:26:15,698 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-06-16 15:26:15,698 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-06-16 15:26:15,698 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-06-16 15:26:15,698 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-06-16 15:26:15,698 - root - INFO - Known anomaly class: 1
+2025-06-16 15:26:15,698 - root - INFO - Network: cifar10_LeNet
+2025-06-16 15:26:15,698 - root - INFO - Eta-parameter: 1.00
+2025-06-16 15:26:15,700 - root - INFO - Set seed to 999.
+2025-06-16 15:26:15,742 - root - INFO - Computation device: cuda
+2025-06-16 15:26:15,743 - root - INFO - Number of threads: 0
+2025-06-16 15:26:15,743 - root - INFO - Number of dataloader workers: 0
+2025-06-16 15:26:21,863 - root - INFO - Pretraining: True
+2025-06-16 15:26:21,863 - root - INFO - Pretraining optimizer: adam
+2025-06-16 15:26:21,863 - root - INFO - Pretraining learning rate: 0.001
+2025-06-16 15:26:21,864 - root - INFO - Pretraining epochs: 1
+2025-06-16 15:26:21,864 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-06-16 15:26:21,864 - root - INFO - Pretraining batch size: 128
+2025-06-16 15:26:21,864 - root - INFO - Pretraining weight decay: 1e-06
+2025-06-16 15:26:25,043 - root - INFO - Starting pretraining...
+2025-06-16 15:26:25,047 - root - INFO -   LR scheduler: new learning rate is 0.0001
+2025-06-16 15:26:39,609 - root - INFO - | Epoch: 001/001 | Train Time: 14.562s | Train Loss: 0.011240 |
+2025-06-16 15:26:39,610 - root - INFO - Pretraining Time: 14.564s
+2025-06-16 15:26:39,610 - root - INFO - Finished pretraining.
+2025-06-16 15:26:39,610 - root - INFO - Testing autoencoder...
+2025-06-16 15:26:44,005 - root - INFO - Test Loss: 0.007156
+2025-06-16 15:26:44,005 - root - INFO - Test AUC: 53.80%
+2025-06-16 15:26:44,005 - root - INFO - Test Time: 4.373s
+2025-06-16 15:26:44,005 - root - INFO - Finished testing autoencoder.
+2025-06-16 15:26:44,009 - root - INFO - Training optimizer: adam
+2025-06-16 15:26:44,009 - root - INFO - Training learning rate: 0.0001
+2025-06-16 15:26:44,009 - root - INFO - Training epochs: 1
+2025-06-16 15:26:44,009 - root - INFO - Training learning rate scheduler milestones: (50,)
+2025-06-16 15:26:44,009 - root - INFO - Training batch size: 128
+2025-06-16 15:26:44,010 - root - INFO - Training weight decay: 5e-07
+2025-06-16 15:26:44,011 - root - INFO - Initializing center c...
+2025-06-16 15:26:53,094 - root - INFO - Center c initialized.
+2025-06-16 15:26:53,094 - root - INFO - Starting training...
+2025-06-16 15:27:04,485 - root - INFO - | Epoch: 001/001 | Train Time: 11.390s | Train Loss: 0.720246 |
+2025-06-16 15:27:04,485 - root - INFO - Training Time: 11.391s
+2025-06-16 15:27:04,485 - root - INFO - Finished training.
+2025-06-16 15:27:04,486 - root - INFO - Starting testing...
+2025-06-16 15:27:08,505 - root - INFO - Testing TPR95: 0.0596
+2025-06-16 15:27:08,506 - root - INFO - Test Loss: 0.092011
+2025-06-16 15:27:08,506 - root - INFO - Test AUC: 52.14%
+2025-06-16 15:27:08,506 - root - INFO - Test Time: 3.893s
+2025-06-16 15:27:08,506 - root - INFO - Finished testing.
