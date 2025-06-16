@@ -28,23 +28,36 @@ INFO:root:Starting pretraining...
 /home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
   warnings.warn("To get the last learning rate computed by the scheduler, "
 INFO:root:  LR scheduler: new learning rate is 0.0001
-INFO:root:| Epoch: 001/100 | Train Time: 12.793s | Train Loss: 0.010758 |
-INFO:root:| Epoch: 002/100 | Train Time: 12.565s | Train Loss: 0.005486 |
-INFO:root:| Epoch: 003/100 | Train Time: 12.683s | Train Loss: 0.004502 |
-INFO:root:| Epoch: 004/100 | Train Time: 12.578s | Train Loss: 0.003979 |
-INFO:root:| Epoch: 005/100 | Train Time: 12.568s | Train Loss: 0.003595 |
-INFO:root:| Epoch: 006/100 | Train Time: 12.690s | Train Loss: 0.003321 |
-INFO:root:| Epoch: 007/100 | Train Time: 12.570s | Train Loss: 0.003170 |
-INFO:root:| Epoch: 008/100 | Train Time: 12.570s | Train Loss: 0.003003 |
-INFO:root:| Epoch: 009/100 | Train Time: 12.597s | Train Loss: 0.002869 |
-INFO:root:| Epoch: 010/100 | Train Time: 12.670s | Train Loss: 0.002744 |
-INFO:root:| Epoch: 011/100 | Train Time: 12.586s | Train Loss: 0.002685 |
-INFO:root:| Epoch: 012/100 | Train Time: 12.603s | Train Loss: 0.002625 |
-INFO:root:| Epoch: 013/100 | Train Time: 12.636s | Train Loss: 0.002542 |
-INFO:root:| Epoch: 014/100 | Train Time: 12.683s | Train Loss: 0.002474 |
-INFO:root:| Epoch: 015/100 | Train Time: 12.648s | Train Loss: 0.002416 |
-INFO:root:| Epoch: 016/100 | Train Time: 12.559s | Train Loss: 0.002370 |
-INFO:root:| Epoch: 017/100 | Train Time: 12.558s | Train Loss: 0.002289 |
-INFO:root:| Epoch: 018/100 | Train Time: 12.550s | Train Loss: 0.002272 |
-INFO:root:| Epoch: 019/100 | Train Time: 12.628s | Train Loss: 0.002210 |
-slurmstepd: error: *** JOB 26938969 ON gl1023 CANCELLED AT 2025-06-16T15:39:33 ***
+INFO:root:| Epoch: 001/100 | Train Time: 14.651s | Train Loss: 0.010758 |
+INFO:root:| Epoch: 002/100 | Train Time: 14.308s | Train Loss: 0.005486 |
+INFO:root:| Epoch: 003/100 | Train Time: 14.214s | Train Loss: 0.004502 |
+INFO:root:| Epoch: 004/100 | Train Time: 14.283s | Train Loss: 0.003979 |
+INFO:root:| Epoch: 005/100 | Train Time: 14.259s | Train Loss: 0.003595 |
+INFO:root:| Epoch: 006/100 | Train Time: 14.192s | Train Loss: 0.003321 |
+INFO:root:| Epoch: 007/100 | Train Time: 14.319s | Train Loss: 0.003170 |
+INFO:root:| Epoch: 008/100 | Train Time: 14.234s | Train Loss: 0.003003 |
+INFO:root:| Epoch: 009/100 | Train Time: 14.195s | Train Loss: 0.002869 |
+INFO:root:| Epoch: 010/100 | Train Time: 14.190s | Train Loss: 0.002744 |
+INFO:root:| Epoch: 011/100 | Train Time: 14.356s | Train Loss: 0.002685 |
+INFO:root:| Epoch: 012/100 | Train Time: 14.197s | Train Loss: 0.002625 |
+INFO:root:| Epoch: 013/100 | Train Time: 14.210s | Train Loss: 0.002542 |
+INFO:root:| Epoch: 014/100 | Train Time: 14.211s | Train Loss: 0.002474 |
+INFO:root:| Epoch: 015/100 | Train Time: 14.328s | Train Loss: 0.002416 |
+INFO:root:| Epoch: 016/100 | Train Time: 14.264s | Train Loss: 0.002370 |
+INFO:root:| Epoch: 017/100 | Train Time: 14.213s | Train Loss: 0.002289 |
+INFO:root:| Epoch: 018/100 | Train Time: 14.189s | Train Loss: 0.002272 |
+INFO:root:| Epoch: 019/100 | Train Time: 14.235s | Train Loss: 0.002210 |
+INFO:root:| Epoch: 020/100 | Train Time: 14.368s | Train Loss: 0.002188 |
+INFO:root:| Epoch: 021/100 | Train Time: 14.211s | Train Loss: 0.002144 |
+INFO:root:| Epoch: 022/100 | Train Time: 14.210s | Train Loss: 0.002113 |
+INFO:root:| Epoch: 023/100 | Train Time: 14.212s | Train Loss: 0.002137 |
+INFO:root:| Epoch: 024/100 | Train Time: 14.358s | Train Loss: 0.002082 |
+INFO:root:| Epoch: 025/100 | Train Time: 14.243s | Train Loss: 0.002076 |
+INFO:root:| Epoch: 026/100 | Train Time: 14.215s | Train Loss: 0.002038 |
+INFO:root:| Epoch: 027/100 | Train Time: 14.236s | Train Loss: 0.002017 |
+INFO:root:| Epoch: 028/100 | Train Time: 14.280s | Train Loss: 0.002010 |
+INFO:root:| Epoch: 029/100 | Train Time: 14.337s | Train Loss: 0.001948 |
+INFO:root:| Epoch: 030/100 | Train Time: 14.213s | Train Loss: 0.001993 |
+INFO:root:| Epoch: 031/100 | Train Time: 14.232s | Train Loss: 0.001954 |
+INFO:root:| Epoch: 032/100 | Train Time: 14.235s | Train Loss: 0.001957 |
+INFO:root:| Epoch: 033/100 | Train Time: 14.378s | Train Loss: 0.001926 |

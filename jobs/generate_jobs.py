@@ -16,7 +16,7 @@ EXP_DSET = 'mnist-fashionmnist'
 # regime = 'Imbalanced'
 regime = 'Balanced'
 
-if EXP_DSET in ['mnist', 'fmnist', 'fmnist-R2' 'mnist-fashionmnist']:
+if EXP_DSET in ['mnist', 'fmnist', 'fmnist-R2', 'mnist-fashionmnist']:
     backbone = 'mnist_LeNet'
 else:
     backbone = 'cifar10_LeNet'

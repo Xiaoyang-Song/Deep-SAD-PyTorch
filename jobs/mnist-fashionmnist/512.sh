@@ -14,7 +14,7 @@
 mkdir log/DeepSAD
 mkdir log/DeepSAD/mnist-fashionmnist-Balanced-512
 cd src
-python main.py mnist-fashionmnist cifar10_LeNet ../log/DeepSAD/mnist-fashionmnist-Balanced-512 ../data --ratio_known_outlier 0.01 \
+python main.py mnist-fashionmnist mnist_LeNet ../log/DeepSAD/mnist-fashionmnist-Balanced-512 ../data --ratio_known_outlier 0.01 \
                 --ratio_pollution 0.1 \
         --lr 0.0001 \
         --n_epochs 150 \

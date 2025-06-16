@@ -14,7 +14,7 @@
 mkdir log/DeepSAD
 mkdir log/DeepSAD/fmnist-R2-Imbalanced-4096
 cd src
-python main.py fmnist-R2 cifar10_LeNet ../log/DeepSAD/fmnist-R2-Imbalanced-4096 ../data --ratio_known_outlier 0.01 \
+python main.py fmnist-R2 mnist_LeNet ../log/DeepSAD/fmnist-R2-Imbalanced-4096 ../data --ratio_known_outlier 0.01 \
                 --ratio_pollution 0.1 \
         --lr 0.0001 \
         --n_epochs 150 \

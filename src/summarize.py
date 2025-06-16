@@ -17,6 +17,31 @@ def read_last_auc(log_file):
 
     return None  # AUC not found
 
+def read_last_tpr95(log_file):
+    with open(log_file, 'r') as f:
+        lines = f.readlines()[::-1]  # Read lines in reverse order
+
+    for line in lines:
+        if 'Testing TPR95' in line:
+            try:
+                return float(line.split('Testing TPR95:')[1].strip())
+            except (IndexError, ValueError):
+                pass
+
+    return None  # TPR95 not found
+
+def read_last_tpr99(log_file):
+    with open(log_file, 'r') as f:
+        lines = f.readlines()[::-1]  # Read lines in reverse order
+
+    for line in lines:
+        if 'Testing TPR99' in line:
+            try:
+                return float(line.split('Testing TPR99:')[1].strip())
+            except (IndexError, ValueError):
+                pass
+
+    return None  # TPR95 not found
 
 EXP_DSET = 'fmnist'
 regime = 'Balanced'
@@ -31,3 +56,19 @@ for n in N:
     auc_value = read_last_auc(file_path)
     # print(f"Parsed AUC: {auc_value}%")
     # print(f"Numeric AUC: {auc_value}")
+    tpr95 = read_last_tpr95(file_path)
+    # print(f"TPR95: {tpr95}")
+
+    tpr99 = read_last_tpr99(file_path)
+    # print(f"TPR95: {tpr99}")
+
+    AUCs.append(auc_value)
+    TPR95.append(tpr95 * 100)
+    TPR99.append(tpr99 * 100)
+
+
+print(f"Summary for {EXP_DSET} with {regime} regime:")
+print(f"N: {N}")
+print(f"AUCs: {', '.join(f'{f:.4f}' for f in AUCs)}")
+print(f"TPR95: {', '.join(f'{f:.4f}' for f in TPR95)}")
+print(f"TPR99: {', '.join(f'{f:.4f}' for f in TPR99)}")
