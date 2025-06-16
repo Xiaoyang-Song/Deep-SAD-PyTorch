@@ -1,0 +1,74 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+INFO:root:Log file is ../log/DeepSAD/fmnist-Balanced-4096/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/fmnist-Balanced-4096
+INFO:root:Dataset: fmnist
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: mnist_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 6.335s | Train Loss: 0.063821 |
+INFO:root:| Epoch: 002/100 | Train Time: 5.947s | Train Loss: 0.026199 |
+INFO:root:| Epoch: 003/100 | Train Time: 6.061s | Train Loss: 0.022286 |
+INFO:root:| Epoch: 004/100 | Train Time: 5.926s | Train Loss: 0.019598 |
+INFO:root:| Epoch: 005/100 | Train Time: 5.920s | Train Loss: 0.017492 |
+INFO:root:| Epoch: 006/100 | Train Time: 6.083s | Train Loss: 0.016197 |
+INFO:root:| Epoch: 007/100 | Train Time: 5.962s | Train Loss: 0.015316 |
+INFO:root:| Epoch: 008/100 | Train Time: 5.947s | Train Loss: 0.014571 |
+INFO:root:| Epoch: 009/100 | Train Time: 5.950s | Train Loss: 0.013963 |
+INFO:root:| Epoch: 010/100 | Train Time: 6.092s | Train Loss: 0.013502 |
+INFO:root:| Epoch: 011/100 | Train Time: 5.970s | Train Loss: 0.013130 |
+INFO:root:| Epoch: 012/100 | Train Time: 5.958s | Train Loss: 0.012810 |
+INFO:root:| Epoch: 013/100 | Train Time: 5.955s | Train Loss: 0.012533 |
+INFO:root:| Epoch: 014/100 | Train Time: 5.974s | Train Loss: 0.012305 |
+INFO:root:| Epoch: 015/100 | Train Time: 6.080s | Train Loss: 0.012109 |
+INFO:root:| Epoch: 016/100 | Train Time: 6.016s | Train Loss: 0.011941 |
+INFO:root:| Epoch: 017/100 | Train Time: 5.943s | Train Loss: 0.011784 |
+INFO:root:| Epoch: 018/100 | Train Time: 5.933s | Train Loss: 0.011628 |
+INFO:root:| Epoch: 019/100 | Train Time: 5.933s | Train Loss: 0.011511 |
+INFO:root:| Epoch: 020/100 | Train Time: 5.931s | Train Loss: 0.011380 |
+INFO:root:| Epoch: 021/100 | Train Time: 5.934s | Train Loss: 0.011272 |
+INFO:root:| Epoch: 022/100 | Train Time: 6.076s | Train Loss: 0.011182 |
+INFO:root:| Epoch: 023/100 | Train Time: 5.952s | Train Loss: 0.011067 |
+INFO:root:| Epoch: 024/100 | Train Time: 5.936s | Train Loss: 0.010992 |
+INFO:root:| Epoch: 025/100 | Train Time: 5.936s | Train Loss: 0.010897 |
+INFO:root:| Epoch: 026/100 | Train Time: 5.960s | Train Loss: 0.010821 |
+INFO:root:| Epoch: 027/100 | Train Time: 5.955s | Train Loss: 0.010746 |
+INFO:root:| Epoch: 028/100 | Train Time: 5.961s | Train Loss: 0.010684 |
+INFO:root:| Epoch: 029/100 | Train Time: 5.969s | Train Loss: 0.010633 |
+INFO:root:| Epoch: 030/100 | Train Time: 5.959s | Train Loss: 0.010583 |
+INFO:root:| Epoch: 031/100 | Train Time: 6.115s | Train Loss: 0.010522 |
+INFO:root:| Epoch: 032/100 | Train Time: 5.940s | Train Loss: 0.010466 |
+INFO:root:| Epoch: 033/100 | Train Time: 5.942s | Train Loss: 0.010421 |
+INFO:root:| Epoch: 034/100 | Train Time: 5.941s | Train Loss: 0.010382 |
+INFO:root:| Epoch: 035/100 | Train Time: 5.937s | Train Loss: 0.010334 |
+INFO:root:| Epoch: 036/100 | Train Time: 5.937s | Train Loss: 0.010290 |
+INFO:root:| Epoch: 037/100 | Train Time: 5.941s | Train Loss: 0.010272 |
+INFO:root:| Epoch: 038/100 | Train Time: 5.939s | Train Loss: 0.010227 |
+INFO:root:| Epoch: 039/100 | Train Time: 5.945s | Train Loss: 0.010202 |
+INFO:root:| Epoch: 040/100 | Train Time: 5.942s | Train Loss: 0.010168 |
+INFO:root:| Epoch: 041/100 | Train Time: 5.945s | Train Loss: 0.010137 |
+INFO:root:| Epoch: 042/100 | Train Time: 6.070s | Train Loss: 0.010102 |
+INFO:root:| Epoch: 043/100 | Train Time: 5.980s | Train Loss: 0.010068 |
+INFO:root:| Epoch: 044/100 | Train Time: 5.951s | Train Loss: 0.010047 |
+slurmstepd: error: *** JOB 26936458 ON gl1003 CANCELLED AT 2025-06-16T15:39:33 ***

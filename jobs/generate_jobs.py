@@ -4,15 +4,17 @@ import numpy as np
 
 # GL
 ACCOUNT = 'sunwbgt0'
-TIME = "4:00:00"
+TIME = "2:00:00"
 # Configuration
+# EXP_DSET = 'fmnist'
 # EXP_DSET = 'fmnist-R2'
 # EXP_DSET = 'cifar10-svhn'
 # EXP_DSET = 'mnist'
-# EXP_DSET = 'mnist-fashionmnist' 
+EXP_DSET = 'mnist-fashionmnist' 
 # EXP_DSET = 'svhn' 
-EXP_DSET = 'svhn-R2'
-regime = 'Imbalanced'
+# EXP_DSET = 'svhn-R2'
+# regime = 'Imbalanced'
+regime = 'Balanced'
 
 if EXP_DSET in ['mnist', 'fmnist', 'fmnist-R2' 'mnist-fashionmnist']:
     backbone = 'mnist_LeNet'

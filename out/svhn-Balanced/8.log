@@ -1,0 +1,50 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+mkdir: cannot create directory ‘log/DeepSAD/svhn-Balanced-8’: File exists
+INFO:root:Log file is ../log/DeepSAD/svhn-Balanced-8/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/svhn-Balanced-8
+INFO:root:Dataset: svhn
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: cifar10_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 12.793s | Train Loss: 0.010758 |
+INFO:root:| Epoch: 002/100 | Train Time: 12.565s | Train Loss: 0.005486 |
+INFO:root:| Epoch: 003/100 | Train Time: 12.683s | Train Loss: 0.004502 |
+INFO:root:| Epoch: 004/100 | Train Time: 12.578s | Train Loss: 0.003979 |
+INFO:root:| Epoch: 005/100 | Train Time: 12.568s | Train Loss: 0.003595 |
+INFO:root:| Epoch: 006/100 | Train Time: 12.690s | Train Loss: 0.003321 |
+INFO:root:| Epoch: 007/100 | Train Time: 12.570s | Train Loss: 0.003170 |
+INFO:root:| Epoch: 008/100 | Train Time: 12.570s | Train Loss: 0.003003 |
+INFO:root:| Epoch: 009/100 | Train Time: 12.597s | Train Loss: 0.002869 |
+INFO:root:| Epoch: 010/100 | Train Time: 12.670s | Train Loss: 0.002744 |
+INFO:root:| Epoch: 011/100 | Train Time: 12.586s | Train Loss: 0.002685 |
+INFO:root:| Epoch: 012/100 | Train Time: 12.603s | Train Loss: 0.002625 |
+INFO:root:| Epoch: 013/100 | Train Time: 12.636s | Train Loss: 0.002542 |
+INFO:root:| Epoch: 014/100 | Train Time: 12.683s | Train Loss: 0.002474 |
+INFO:root:| Epoch: 015/100 | Train Time: 12.648s | Train Loss: 0.002416 |
+INFO:root:| Epoch: 016/100 | Train Time: 12.559s | Train Loss: 0.002370 |
+INFO:root:| Epoch: 017/100 | Train Time: 12.558s | Train Loss: 0.002289 |
+INFO:root:| Epoch: 018/100 | Train Time: 12.550s | Train Loss: 0.002272 |
+INFO:root:| Epoch: 019/100 | Train Time: 12.628s | Train Loss: 0.002210 |
+slurmstepd: error: *** JOB 26938969 ON gl1023 CANCELLED AT 2025-06-16T15:39:33 ***

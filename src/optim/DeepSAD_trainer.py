@@ -152,6 +152,11 @@ class DeepSADTrainer(BaseTrainer):
         print(f"InD Test Size: {len(ind_scores)}, OoD Test Size: {len(ood_scores)}, TPR95: {tpr95:.4f}")
         logger.info('Testing TPR95: {:.4f}'.format(tpr95))
 
+        tpr99threshold = np.percentile(ind_scores, 99)
+        tpr99 = np.sum(ood_scores >= tpr99threshold) / len(ood_scores)
+        print(f"InD Test Size: {len(ind_scores)}, OoD Test Size: {len(ood_scores)}, TPR99: {tpr99:.4f}")
+        logger.info('Testing TPR99: {:.4f}'.format(tpr99))
+
         # Log results
         logger.info('Test Loss: {:.6f}'.format(epoch_loss / n_batches))
         logger.info('Test AUC: {:.2f}%'.format(100. * self.test_auc))

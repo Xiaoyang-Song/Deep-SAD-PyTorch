@@ -277,3 +277,41 @@ INFO:root:| Epoch: 126/150 | Train Time: 5.254s | Train Loss: 0.009254 |
 INFO:root:| Epoch: 127/150 | Train Time: 5.253s | Train Loss: 0.009227 |
 INFO:root:| Epoch: 128/150 | Train Time: 5.256s | Train Loss: 0.009126 |
 INFO:root:| Epoch: 129/150 | Train Time: 5.279s | Train Loss: 0.009449 |
+INFO:root:| Epoch: 130/150 | Train Time: 5.374s | Train Loss: 0.009592 |
+INFO:root:| Epoch: 131/150 | Train Time: 5.268s | Train Loss: 0.008652 |
+INFO:root:| Epoch: 132/150 | Train Time: 5.271s | Train Loss: 0.009409 |
+INFO:root:| Epoch: 133/150 | Train Time: 5.278s | Train Loss: 0.009526 |
+INFO:root:| Epoch: 134/150 | Train Time: 5.260s | Train Loss: 0.009668 |
+INFO:root:| Epoch: 135/150 | Train Time: 5.262s | Train Loss: 0.009561 |
+INFO:root:| Epoch: 136/150 | Train Time: 5.257s | Train Loss: 0.009064 |
+INFO:root:| Epoch: 137/150 | Train Time: 5.254s | Train Loss: 0.009373 |
+INFO:root:| Epoch: 138/150 | Train Time: 5.260s | Train Loss: 0.009292 |
+INFO:root:| Epoch: 139/150 | Train Time: 5.259s | Train Loss: 0.008587 |
+INFO:root:| Epoch: 140/150 | Train Time: 5.262s | Train Loss: 0.009087 |
+INFO:root:| Epoch: 141/150 | Train Time: 5.258s | Train Loss: 0.009303 |
+INFO:root:| Epoch: 142/150 | Train Time: 5.276s | Train Loss: 0.009009 |
+INFO:root:| Epoch: 143/150 | Train Time: 5.365s | Train Loss: 0.008558 |
+INFO:root:| Epoch: 144/150 | Train Time: 5.277s | Train Loss: 0.009539 |
+INFO:root:| Epoch: 145/150 | Train Time: 5.262s | Train Loss: 0.009161 |
+INFO:root:| Epoch: 146/150 | Train Time: 5.265s | Train Loss: 0.009228 |
+INFO:root:| Epoch: 147/150 | Train Time: 5.256s | Train Loss: 0.008753 |
+INFO:root:| Epoch: 148/150 | Train Time: 5.254s | Train Loss: 0.009085 |
+INFO:root:| Epoch: 149/150 | Train Time: 5.253s | Train Loss: 0.009072 |
+INFO:root:| Epoch: 150/150 | Train Time: 5.259s | Train Loss: 0.009182 |
+INFO:root:Training Time: 790.244s
+INFO:root:Finished training.
+INFO:root:Starting testing...
+INFO:root:Testing TPR95: 0.1040
+INFO:root:Test Loss: 2.211371
+INFO:root:Test AUC: 66.85%
+INFO:root:Test Time: 1.006s
+INFO:root:Finished testing.
+Outlier classes: [8, 9]
+Original training data size:  60000 torch.Size([60000, 28, 28])
+Using number-pre-sampled sampler
+Train set shape: torch.Size([48000, 28, 28])
+Train set size: 48128
+Train targets size: 48128
+Train semi-targets size: 48128
+Counter({0: 6000, 3: 6000, 2: 6000, 7: 6000, 5: 6000, 1: 6000, 6: 6000, 4: 6000, 8: 64, 9: 64})
+InD Test Size: 8000, OoD Test Size: 2000, TPR95: 0.1040
