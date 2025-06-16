@@ -30,3 +30,4 @@ python main.py fmnist mnist_LeNet ../log/DeepSAD/fashionmnist ../data --ratio_kn
     --n_pollution 0 \
     --sampler number-pre-sampled \
     --regime Balanced
+    

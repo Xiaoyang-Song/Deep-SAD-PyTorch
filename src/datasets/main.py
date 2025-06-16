@@ -11,7 +11,7 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
                  random_state=None):
     """Loads the dataset."""
 
-    implemented_datasets = ('mnist', 'fmnist', 'cifar10',
+    implemented_datasets = ('mnist', 'fmnist', 'cifar10', 'fmnist-R2', 'svhn-R2',
                             'cifar10-svhn', 'mnist-fashionmnist',
                             'arrhythmia', 'cardio', 'satellite', 'satimage-2', 'shuttle', 'thyroid')
     assert dataset_name in implemented_datasets
@@ -39,7 +39,7 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
                                            n_pollution=n_pollution,
                                            sampler=sampler,
                                            regime=regime)
-    if dataset_name == 'fmnist':
+    if dataset_name == 'fmnist' or dataset_name == 'fmnist-R2':
         # dataset = FashionMNIST_Dataset(root=data_path,
         #                                normal_class=normal_class,
         #                                known_outlier_class=known_outlier_class,
