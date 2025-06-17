@@ -11,16 +11,16 @@
 # sbatch jobs/fmnist/4096.sh
 
 # REDO later
-sbatch jobs/fmnist-R2/8.sh
-sbatch jobs/fmnist-R2/16.sh
-sbatch jobs/fmnist-R2/32.sh
-sbatch jobs/fmnist-R2/64.sh
-sbatch jobs/fmnist-R2/128.sh
-sbatch jobs/fmnist-R2/256.sh
-sbatch jobs/fmnist-R2/512.sh
-sbatch jobs/fmnist-R2/1024.sh
-sbatch jobs/fmnist-R2/2048.sh
-sbatch jobs/fmnist-R2/4096.sh
+# sbatch jobs/fmnist-R2/8.sh
+# sbatch jobs/fmnist-R2/16.sh
+# sbatch jobs/fmnist-R2/32.sh
+# sbatch jobs/fmnist-R2/64.sh
+# sbatch jobs/fmnist-R2/128.sh
+# sbatch jobs/fmnist-R2/256.sh
+# sbatch jobs/fmnist-R2/512.sh
+# sbatch jobs/fmnist-R2/1024.sh
+# sbatch jobs/fmnist-R2/2048.sh
+# sbatch jobs/fmnist-R2/4096.sh
 
 # sbatch jobs/cifar10-svhn/8.sh
 # sbatch jobs/cifar10-svhn/16.sh
@@ -33,28 +33,30 @@ sbatch jobs/fmnist-R2/4096.sh
 # sbatch jobs/cifar10-svhn/2048.sh
 # sbatch jobs/cifar10-svhn/4096.sh
 
-# sbatch jobs/mnist/8.sh
-# sbatch jobs/mnist/16.sh
-# sbatch jobs/mnist/32.sh
-# sbatch jobs/mnist/64.sh
-# sbatch jobs/mnist/128.sh
-# sbatch jobs/mnist/256.sh
-# sbatch jobs/mnist/512.sh
-# sbatch jobs/mnist/1024.sh
-# sbatch jobs/mnist/2048.sh
-# sbatch jobs/mnist/4096.sh
+sbatch jobs/mnist/8.sh
+sbatch jobs/mnist/16.sh
+sbatch jobs/mnist/32.sh
+sbatch jobs/mnist/64.sh
+sbatch jobs/mnist/128.sh
+sbatch jobs/mnist/256.sh
+sbatch jobs/mnist/512.sh
+sbatch jobs/mnist/1024.sh
+sbatch jobs/mnist/2048.sh
+sbatch jobs/mnist/4096.sh
 
-# sbatch jobs/mnist-fashionmnist/8.sh
-# sbatch jobs/mnist-fashionmnist/16.sh
-# sbatch jobs/mnist-fashionmnist/32.sh
-# sbatch jobs/mnist-fashionmnist/64.sh
-# sbatch jobs/mnist-fashionmnist/128.sh
-# sbatch jobs/mnist-fashionmnist/256.sh
-# sbatch jobs/mnist-fashionmnist/512.sh
-# sbatch jobs/mnist-fashionmnist/1024.sh
-# sbatch jobs/mnist-fashionmnist/2048.sh
-# sbatch jobs/mnist-fashionmnist/4096.sh
+sbatch jobs/mnist-fashionmnist/8.sh
+sbatch jobs/mnist-fashionmnist/16.sh
+sbatch jobs/mnist-fashionmnist/32.sh
+sbatch jobs/mnist-fashionmnist/64.sh
+sbatch jobs/mnist-fashionmnist/128.sh
+sbatch jobs/mnist-fashionmnist/256.sh
+sbatch jobs/mnist-fashionmnist/512.sh
+sbatch jobs/mnist-fashionmnist/1024.sh
+sbatch jobs/mnist-fashionmnist/2048.sh
+sbatch jobs/mnist-fashionmnist/4096.sh
 
+
+# DONE
 # sbatch jobs/svhn/8.sh
 # sbatch jobs/svhn/16.sh
 # sbatch jobs/svhn/32.sh
