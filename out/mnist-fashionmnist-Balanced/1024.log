@@ -1,0 +1,44 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+mkdir: cannot create directory ‘log/DeepSAD/mnist-fashionmnist-Balanced-1024’: File exists
+INFO:root:Log file is ../log/DeepSAD/mnist-fashionmnist-Balanced-1024/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/mnist-fashionmnist-Balanced-1024
+INFO:root:Dataset: mnist-fashionmnist
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: mnist_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torchvision/datasets/mnist.py:75: UserWarning: train_data has been renamed data
+  warnings.warn("train_data has been renamed data")
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torchvision/datasets/mnist.py:80: UserWarning: test_data has been renamed data
+  warnings.warn("test_data has been renamed data")
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 6.742s | Train Loss: 0.059165 |
+INFO:root:| Epoch: 002/100 | Train Time: 6.314s | Train Loss: 0.010845 |
+INFO:root:| Epoch: 003/100 | Train Time: 6.459s | Train Loss: 0.008197 |
+INFO:root:| Epoch: 004/100 | Train Time: 6.332s | Train Loss: 0.007208 |
+INFO:root:| Epoch: 005/100 | Train Time: 6.323s | Train Loss: 0.006636 |
+INFO:root:| Epoch: 006/100 | Train Time: 6.464s | Train Loss: 0.006088 |
+INFO:root:| Epoch: 007/100 | Train Time: 6.346s | Train Loss: 0.005480 |
+INFO:root:| Epoch: 008/100 | Train Time: 6.329s | Train Loss: 0.005067 |
+INFO:root:| Epoch: 009/100 | Train Time: 6.357s | Train Loss: 0.004766 |
+INFO:root:| Epoch: 010/100 | Train Time: 6.486s | Train Loss: 0.004519 |

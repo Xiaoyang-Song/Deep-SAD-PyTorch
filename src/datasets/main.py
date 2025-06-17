@@ -92,6 +92,22 @@ def load_dataset(dataset_name, data_path, normal_class, known_outlier_class, n_k
                             ind = 'cifar10',
                             ood = 'svhn')
         
+    if dataset_name == 'mnist-fashionmnist':
+        dataset = BTN_Dataset(root=data_path,
+                            normal_class=normal_class,
+                            known_outlier_class=known_outlier_class,
+                            n_known_outlier_classes=n_known_outlier_classes,
+                            ratio_known_normal=ratio_known_normal,
+                            ratio_known_outlier=ratio_known_outlier,
+                            ratio_pollution=ratio_pollution,
+                            n_known_normal=n_known_normal,
+                            n_known_outlier=n_known_outlier,
+                            n_pollution=n_pollution,
+                            sampler=sampler,
+                            regime=regime,
+                            ind = 'mnist',
+                            ood = 'fashionmnist')
+        
     if dataset_name == 'cifar10':
         dataset = CIFAR10_Dataset(root=data_path,
                                   normal_class=normal_class,

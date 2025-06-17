@@ -1,6 +1,12 @@
 import os
 import numpy as np
+import argparse
 
+
+parser = argparse.ArgumentParser(description="details")
+parser.add_argument('--regime', type=str)
+parser.add_argument('--experiment', type=str)
+args = parser.parse_args()
 
 def read_last_auc(log_file):
     with open(log_file, 'r') as f:
@@ -43,10 +49,10 @@ def read_last_tpr99(log_file):
 
     return None  # TPR95 not found
 
-EXP_DSET = 'fmnist'
-regime = 'Balanced'
-# N = [8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
-N = [8, 16, 32]
+EXP_DSET = args.experiment
+regime = args.regime
+N = [8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096]
+# N = [8, 16, 32]
 
 AUCs = []
 TPR95 = []
@@ -71,4 +77,4 @@ print(f"Summary for {EXP_DSET} with {regime} regime:")
 print(f"N: {N}")
 print(f"AUCs: {', '.join(f'{f:.4f}' for f in AUCs)}")
 print(f"TPR95: {', '.join(f'{f:.4f}' for f in TPR95)}")
-print(f"TPR99: {', '.join(f'{f:.4f}' for f in TPR99)}")
+print(f"TPR99: {', '.join(f'{f:.4f}' for f in TPR99)}\n\n")

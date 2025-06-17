@@ -1,0 +1,113 @@
+mkdir: cannot create directory ‘log/DeepSAD’: File exists
+mkdir: cannot create directory ‘log/DeepSAD/mnist-fashionmnist-Balanced-8’: File exists
+INFO:root:Log file is ../log/DeepSAD/mnist-fashionmnist-Balanced-8/log.txt
+INFO:root:Data path is ../data
+INFO:root:Export path is ../log/DeepSAD/mnist-fashionmnist-Balanced-8
+INFO:root:Dataset: mnist-fashionmnist
+INFO:root:Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+INFO:root:Ratio of labeled normal train samples: 0.00
+INFO:root:Ratio of labeled anomalous samples: 0.01
+INFO:root:Pollution ratio of unlabeled train data: 0.10
+INFO:root:Known anomaly class: 1
+INFO:root:Network: mnist_LeNet
+INFO:root:Eta-parameter: 1.00
+INFO:root:Set seed to 999.
+INFO:root:Computation device: cuda
+INFO:root:Number of threads: 0
+INFO:root:Number of dataloader workers: 0
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ../data/MNIST/raw/train-images-idx3-ubyte.gz
+  0%|          | 0/9912422 [00:00<?, ?it/s]  7%|▋         | 720896/9912422 [00:00<00:01, 6505720.00it/s] 88%|████████▊ | 8749056/9912422 [00:00<00:00, 48021835.23it/s]100%|██████████| 9912422/9912422 [00:00<00:00, 44713479.68it/s]
+Extracting ../data/MNIST/raw/train-images-idx3-ubyte.gz to ../data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ../data/MNIST/raw/train-labels-idx1-ubyte.gz
+  0%|          | 0/28881 [00:00<?, ?it/s]100%|██████████| 28881/28881 [00:00<00:00, 1406004.15it/s]
+Extracting ../data/MNIST/raw/train-labels-idx1-ubyte.gz to ../data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ../data/MNIST/raw/t10k-images-idx3-ubyte.gz
+  0%|          | 0/1648877 [00:00<?, ?it/s] 48%|████▊     | 786432/1648877 [00:00<00:00, 6649775.89it/s]100%|██████████| 1648877/1648877 [00:00<00:00, 11508321.69it/s]
+Extracting ../data/MNIST/raw/t10k-images-idx3-ubyte.gz to ../data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ../data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+  0%|          | 0/4542 [00:00<?, ?it/s]100%|██████████| 4542/4542 [00:00<00:00, 5971952.59it/s]
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torchvision/datasets/mnist.py:75: UserWarning: train_data has been renamed data
+  warnings.warn("train_data has been renamed data")
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torchvision/datasets/mnist.py:80: UserWarning: test_data has been renamed data
+  warnings.warn("test_data has been renamed data")
+Extracting ../data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ../data/MNIST/raw
+
+InD Train set shape: torch.Size([60000, 28, 28]), InD Test set shape: torch.Size([10000, 28, 28])
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz to ../data/FashionMNIST/raw/train-images-idx3-ubyte.gz
+  0%|          | 0/26421880 [00:00<?, ?it/s]  0%|          | 32768/26421880 [00:00<01:26, 305382.57it/s]  0%|          | 65536/26421880 [00:00<01:27, 302536.31it/s]  0%|          | 131072/26421880 [00:00<00:59, 439673.64it/s]  1%|          | 229376/26421880 [00:00<00:42, 622665.41it/s]  2%|▏         | 491520/26421880 [00:00<00:20, 1264668.67it/s]  4%|▎         | 950272/26421880 [00:00<00:11, 2271186.58it/s]  7%|▋         | 1933312/26421880 [00:03<00:54, 452734.14it/s] 24%|██▎       | 6258688/26421880 [00:03<00:09, 2223480.99it/s] 30%|███       | 7929856/26421880 [00:03<00:06, 3017772.75it/s] 41%|████▏     | 10944512/26421880 [00:04<00:03, 4979273.30it/s] 53%|█████▎    | 13893632/26421880 [00:04<00:01, 7232508.65it/s] 64%|██████▍   | 17006592/26421880 [00:04<00:00, 9948200.21it/s] 76%|███████▋  | 20152320/26421880 [00:04<00:00, 12859069.10it/s] 88%|████████▊ | 23265280/26421880 [00:04<00:00, 15689076.13it/s] 99%|█████████▉| 26214400/26421880 [00:04<00:00, 17958229.93it/s]100%|██████████| 26421880/26421880 [00:04<00:00, 5746424.36it/s] 
+Extracting ../data/FashionMNIST/raw/train-images-idx3-ubyte.gz to ../data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz to ../data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
+  0%|          | 0/29515 [00:00<?, ?it/s]100%|██████████| 29515/29515 [00:00<00:00, 279232.38it/s]100%|██████████| 29515/29515 [00:00<00:00, 278822.95it/s]
+Extracting ../data/FashionMNIST/raw/train-labels-idx1-ubyte.gz to ../data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz to ../data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
+  0%|          | 0/4422102 [00:00<?, ?it/s]  1%|          | 32768/4422102 [00:00<00:14, 310308.29it/s]  1%|▏         | 65536/4422102 [00:00<00:14, 309425.97it/s]  3%|▎         | 131072/4422102 [00:00<00:09, 450268.73it/s]  5%|▌         | 229376/4422102 [00:00<00:06, 638810.58it/s] 11%|█         | 491520/4422102 [00:00<00:03, 1298940.26it/s] 21%|██▏       | 950272/4422102 [00:00<00:01, 2328509.11it/s] 44%|████▎     | 1933312/4422102 [00:00<00:00, 4592485.36it/s] 87%|████████▋ | 3833856/4422102 [00:00<00:00, 8836183.71it/s]100%|██████████| 4422102/4422102 [00:00<00:00, 5180518.69it/s]
+Extracting ../data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz to ../data/FashionMNIST/raw
+
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz
+Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz to ../data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
+  0%|          | 0/5148 [00:00<?, ?it/s]100%|██████████| 5148/5148 [00:00<00:00, 69428543.38it/s]
+INFO:root:Pretraining: True
+INFO:root:Pretraining optimizer: adam
+INFO:root:Pretraining learning rate: 0.001
+INFO:root:Pretraining epochs: 100
+INFO:root:Pretraining learning rate scheduler milestones: (0,)
+INFO:root:Pretraining batch size: 128
+INFO:root:Pretraining weight decay: 1e-06
+INFO:root:Starting pretraining...
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:131: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/home/xysong/.conda/envs/OoD/lib/python3.9/site-packages/torch/optim/lr_scheduler.py:418: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  warnings.warn("To get the last learning rate computed by the scheduler, "
+INFO:root:  LR scheduler: new learning rate is 0.0001
+INFO:root:| Epoch: 001/100 | Train Time: 6.212s | Train Loss: 0.059173 |
+INFO:root:| Epoch: 002/100 | Train Time: 5.980s | Train Loss: 0.009887 |
+INFO:root:| Epoch: 003/100 | Train Time: 6.059s | Train Loss: 0.006741 |
+INFO:root:| Epoch: 004/100 | Train Time: 5.949s | Train Loss: 0.005776 |
+INFO:root:| Epoch: 005/100 | Train Time: 5.946s | Train Loss: 0.005239 |
+INFO:root:| Epoch: 006/100 | Train Time: 6.081s | Train Loss: 0.004821 |
+INFO:root:| Epoch: 007/100 | Train Time: 5.986s | Train Loss: 0.004369 |
+INFO:root:| Epoch: 008/100 | Train Time: 5.967s | Train Loss: 0.003994 |
+INFO:root:| Epoch: 009/100 | Train Time: 5.971s | Train Loss: 0.003681 |
+INFO:root:| Epoch: 010/100 | Train Time: 6.098s | Train Loss: 0.003352 |
+INFO:root:| Epoch: 011/100 | Train Time: 5.970s | Train Loss: 0.003002 |
+INFO:root:| Epoch: 012/100 | Train Time: 5.961s | Train Loss: 0.002666 |
+INFO:root:| Epoch: 013/100 | Train Time: 5.964s | Train Loss: 0.002430 |
+INFO:root:| Epoch: 014/100 | Train Time: 5.968s | Train Loss: 0.002246 |
+INFO:root:| Epoch: 015/100 | Train Time: 6.065s | Train Loss: 0.002103 |
+INFO:root:| Epoch: 016/100 | Train Time: 6.003s | Train Loss: 0.001982 |
+INFO:root:| Epoch: 017/100 | Train Time: 5.965s | Train Loss: 0.001879 |
+INFO:root:| Epoch: 018/100 | Train Time: 5.962s | Train Loss: 0.001785 |
+INFO:root:| Epoch: 019/100 | Train Time: 5.960s | Train Loss: 0.001694 |
+INFO:root:| Epoch: 020/100 | Train Time: 5.967s | Train Loss: 0.001622 |
+INFO:root:| Epoch: 021/100 | Train Time: 5.964s | Train Loss: 0.001556 |
+INFO:root:| Epoch: 022/100 | Train Time: 6.103s | Train Loss: 0.001502 |
+INFO:root:| Epoch: 023/100 | Train Time: 5.998s | Train Loss: 0.001447 |
+INFO:root:| Epoch: 024/100 | Train Time: 5.984s | Train Loss: 0.001396 |

@@ -1,0 +1,34 @@
+2025-06-16 23:14:37,589 - root - INFO - Log file is ../log/DeepSAD/mnist-fashionmnist-Balanced-128/log.txt
+2025-06-16 23:14:37,590 - root - INFO - Data path is ../data
+2025-06-16 23:14:37,590 - root - INFO - Export path is ../log/DeepSAD/mnist-fashionmnist-Balanced-128
+2025-06-16 23:14:37,590 - root - INFO - Dataset: mnist-fashionmnist
+2025-06-16 23:14:37,590 - root - INFO - Normal class: [0, 1, 2, 3, 4, 5, 6, 7]
+2025-06-16 23:14:37,590 - root - INFO - Ratio of labeled normal train samples: 0.00
+2025-06-16 23:14:37,590 - root - INFO - Ratio of labeled anomalous samples: 0.01
+2025-06-16 23:14:37,590 - root - INFO - Pollution ratio of unlabeled train data: 0.10
+2025-06-16 23:14:37,590 - root - INFO - Known anomaly class: 1
+2025-06-16 23:14:37,590 - root - INFO - Network: mnist_LeNet
+2025-06-16 23:14:37,590 - root - INFO - Eta-parameter: 1.00
+2025-06-16 23:14:37,592 - root - INFO - Set seed to 999.
+2025-06-16 23:14:37,622 - root - INFO - Computation device: cuda
+2025-06-16 23:14:37,623 - root - INFO - Number of threads: 0
+2025-06-16 23:14:37,623 - root - INFO - Number of dataloader workers: 0
+2025-06-16 23:14:38,113 - root - INFO - Pretraining: True
+2025-06-16 23:14:38,114 - root - INFO - Pretraining optimizer: adam
+2025-06-16 23:14:38,114 - root - INFO - Pretraining learning rate: 0.001
+2025-06-16 23:14:38,114 - root - INFO - Pretraining epochs: 100
+2025-06-16 23:14:38,114 - root - INFO - Pretraining learning rate scheduler milestones: (0,)
+2025-06-16 23:14:38,114 - root - INFO - Pretraining batch size: 128
+2025-06-16 23:14:38,114 - root - INFO - Pretraining weight decay: 1e-06
+2025-06-16 23:14:41,467 - root - INFO - Starting pretraining...
+2025-06-16 23:14:41,469 - root - INFO -   LR scheduler: new learning rate is 0.0001
+2025-06-16 23:14:48,017 - root - INFO - | Epoch: 001/100 | Train Time: 6.548s | Train Loss: 0.059114 |
+2025-06-16 23:14:54,125 - root - INFO - | Epoch: 002/100 | Train Time: 6.108s | Train Loss: 0.010103 |
+2025-06-16 23:15:00,380 - root - INFO - | Epoch: 003/100 | Train Time: 6.254s | Train Loss: 0.006958 |
+2025-06-16 23:15:06,537 - root - INFO - | Epoch: 004/100 | Train Time: 6.157s | Train Loss: 0.005989 |
+2025-06-16 23:15:12,649 - root - INFO - | Epoch: 005/100 | Train Time: 6.112s | Train Loss: 0.005423 |
+2025-06-16 23:15:18,762 - root - INFO - | Epoch: 006/100 | Train Time: 6.113s | Train Loss: 0.004943 |
+2025-06-16 23:15:24,876 - root - INFO - | Epoch: 007/100 | Train Time: 6.114s | Train Loss: 0.004470 |
+2025-06-16 23:15:31,117 - root - INFO - | Epoch: 008/100 | Train Time: 6.241s | Train Loss: 0.004095 |
+2025-06-16 23:15:37,289 - root - INFO - | Epoch: 009/100 | Train Time: 6.171s | Train Loss: 0.003779 |
+2025-06-16 23:15:43,413 - root - INFO - | Epoch: 010/100 | Train Time: 6.124s | Train Loss: 0.003476 |
