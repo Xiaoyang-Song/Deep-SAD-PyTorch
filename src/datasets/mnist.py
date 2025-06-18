@@ -91,8 +91,8 @@ class MNIST_Dataset_Customized(TorchvisionDataset):
 
             train_set = torch.tensor(np.concatenate((InD_train_set, OoD_train_set), axis=0))
             train_targets = np.concatenate((InD_train_targets, OoD_labels.numpy()), axis=0)
-            # semi_targets = np.concatenate((np.ones(len(InD_train_targets)), -np.ones(len(OoD_labels))), axis=0)
-            semi_targets = np.concatenate((np.zeros(len(InD_train_targets)), -np.ones(len(OoD_labels))), axis=0) # Try use unsupervised label for InD data
+            semi_targets = np.concatenate((np.ones(len(InD_train_targets)), -np.ones(len(OoD_labels))), axis=0)
+            # semi_targets = np.concatenate((np.zeros(len(InD_train_targets)), -np.ones(len(OoD_labels))), axis=0) # Try use unsupervised label for InD data
             print(f"Train set size: {len(train_set)}")
             print(f"Train targets size: {len(train_targets)}")
             print(f"Train semi-targets size: {len(semi_targets)}")
